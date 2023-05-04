@@ -76,7 +76,7 @@
     align-items: center;
 }
 .home-header-button-fill {
-    width: 50%;
+    width: 100%;
     background-color: #8271cb;
     color: white;
     border-radius: 5px;
@@ -88,7 +88,7 @@
     margin-right: 1rem;
 }
 .home-header-button-outline {
-    width: 50%;
+    width: 100%;
     background-color: transparent;
     color: #8271cb;
     margin-right: 25%;

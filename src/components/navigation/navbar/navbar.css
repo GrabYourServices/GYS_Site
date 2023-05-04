@@ -6,6 +6,7 @@
   display: none;
 }
 .nav-container {
+  margin-top: 45px;
   position: fixed;
   top: 0;
   left: 0;
@@ -16,11 +17,12 @@
   flex-direction: row;
   justify-content: space-between;
   padding-left: 5rem;
-  transition: background-color 0.5s ease;
+  transition: all 0.3s ease;
   padding-right: 5rem;
 }
 .nav-container.scrolled {
   background-color: black;
+  margin-top: 0;
 }
 
   .nav-logo {

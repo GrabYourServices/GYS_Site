@@ -1,0 +1,22 @@
+@font-face {
+    font-family: fa;
+    src: url('../../../fonts/OTF/Satoshi-Bold.otf');
+}
+@font-face {
+    font-family: satoshiMain;
+    src: url('../../../fonts/OTF/Satoshi-Regular.otf');
+}
+
+.nav-topheader-text {
+    color: white;
+    font-size: 16px;
+    font-family: satoshiMain;
+  }
+.nav-topheader {
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
