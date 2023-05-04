@@ -58,7 +58,7 @@ function NavBar() {
           <nav className='nav-contents-container'>
             <ul>
               <li>
-                <Link to='/'>
+                <Link to='/GYS_Site/build/'>
                   <p className='modal-a'>Home</p>
                 </Link>
               </li>    
@@ -78,32 +78,32 @@ function NavBar() {
               {...{ contentStyle, overlayStyle, arrowStyle }} >
                 <FadeIn>
                   <li className='modal-li'>
-                    <Link to='/websites'>
+                    <Link to='/GYS_Site/build/websites'>
                       <p className='modal-a'>Websites</p>
                     </Link>
                   </li>
                   <li className='modal-li'>
-                    <Link to='/webhosting'>
+                    <Link to='/GYS_Site/build/webhosting'>
                       <p className='modal-a'>Web Hosting</p>
                     </Link>                
                   </li>
                   <li className='modal-li'>
-                    <Link to='/minecrafthosting'>
+                    <Link to='/GYS_Site/build/minecrafthosting'>
                       <p className='modal-a'>Minecraft Hosting</p>
                     </Link>
                   </li>
                   <li className='modal-li'>
-                    <Link to='/discordbots'>
+                    <Link to='/GYS_Site/build/discordbots'>
                       <p className='modal-a'>Discord Bot</p>
                     </Link>
                   </li>
                   <li className='modal-li'>
-                    <Link to='/brandidentitydesigns'>
+                    <Link to='/GYS_Site/build/brandidentitydesigns'>
                       <p className='modal-a'>Brand Identity Design</p>
                     </Link>
                   </li>
                   <li className='modal-li'>
-                    <Link to='/brandidentitydesigns'>
+                    <Link to='/GYS_Site/build/brandidentitydesigns'>
                       <a href='/graphics' className='modal-a'>Graphics</a>
                     </Link>
                   </li>

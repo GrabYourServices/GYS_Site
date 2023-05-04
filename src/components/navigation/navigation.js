@@ -12,13 +12,13 @@ function Navigator() {
     <Router>
         <NavBar></NavBar>
         <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/websites" element={<WebsitesPage />} />
-            <Route path="/webhosting" element={<WebsiteHostingPage />} />
-            <Route path="/minecrafthosting" element={<MinecraftHostingPage />} />
-            <Route path="/discordbots" element={<PricingPage />} />
-            <Route path="/brandidentitydesigns" element={<PricingPage />} />
-            <Route path="/graphics" element={<ContactPage />} />
+            <Route path="/GYS_Site/build/" element={<HomePage />} />
+            <Route path="/GYS_Site/build/websites" element={<WebsitesPage />} />
+            <Route path="/GYS_Site/build/webhosting" element={<WebsiteHostingPage />} />
+            <Route path="/GYS_Site/build/minecrafthosting" element={<MinecraftHostingPage />} />
+            <Route path="/GYS_Site/build/discordbots" element={<PricingPage />} />
+            <Route path="/GYS_Site/build/brandidentitydesigns" element={<PricingPage />} />
+            <Route path="/GYS_Site/build/graphics" element={<ContactPage />} />
         </Routes>
     </Router>
   )
