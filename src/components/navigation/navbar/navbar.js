@@ -103,8 +103,8 @@ function NavBar() {
                     </Link>
                   </li>
                   <li className='modal-li'>
-                    <Link to='/GYS_Site/build/brandidentitydesigns'>
-                      <a href='/graphics' className='modal-a'>Graphics</a>
+                    <Link to='/GYS_Site/build/graphics'>
+                      <p className='modal-a'>Graphics</p>
                     </Link>
                   </li>
                 </FadeIn>
@@ -114,24 +114,40 @@ function NavBar() {
           <GiHamburgerMenu color="#8271cb" onClick={toggleMenu} size={32} className='nav-icon' />
           <nav className={`nav-hamburger-menu ${isOpen ? "open" : ""}`}>
             <ul className="hamburger-menu-list">
-              <li className="hamburger-menu-item"><a href="#">Home</a></li>
               <li className="hamburger-menu-item">
-                <a href='/contact'>Websites</a>
+                <Link to='/GYS_Site/build/'>
+                  <p className='modal-a'>Home</p>
+                </Link>
               </li>
               <li className="hamburger-menu-item">
-                <a href='/contact'>Web Hosting</a>
+                <Link to='/GYS_Site/build/websites'>
+                  <p className='modal-a'>Websites</p>
+                </Link>
               </li>
               <li className="hamburger-menu-item">
-                <a href='/contact'>Minecraft Hosting</a>
+                <Link to='/GYS_Site/build/webhosting'>
+                  <p className='modal-a'>Web Hosting</p>
+                </Link>
               </li>
               <li className="hamburger-menu-item">
-                <a href='/contact'>Discord Bot</a>
+                <Link to='/GYS_Site/build/minecrafthosting'>
+                  <p className='modal-a'>Minecraft Hosting</p>
+                </Link>
               </li>
               <li className="hamburger-menu-item">
-                <a href='/contact'>Brand Identity Design</a>
+                <Link to='/GYS_Site/build/discordbots'>
+                  <p className='modal-a'>Discord Bot</p>
+                </Link>
               </li>
               <li className="hamburger-menu-item">
-                <a href='/contact'>Graphics</a>
+                <Link to='/GYS_Site/build/brandidentitydesigns'>
+                  <p className='modal-a'>Brand Identity Design</p>
+                </Link>
+              </li>
+              <li className="hamburger-menu-item">
+                <Link to='/GYS_Site/build/graphics'>
+                  <p className='modal-a'>Graphics</p>
+                </Link>
               </li>
               <button onClick={toggleMenu} style={{
                 backgroundColor:'white',

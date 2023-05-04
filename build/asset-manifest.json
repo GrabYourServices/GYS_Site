@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/GYS_Site/build/static/css/main.56254a98.css",
-    "main.js": "/GYS_Site/build/static/js/main.3a9768dc.js",
+    "main.js": "/GYS_Site/build/static/js/main.ce6f3804.js",
     "static/js/787.bd664e3e.chunk.js": "/GYS_Site/build/static/js/787.bd664e3e.chunk.js",
     "static/media/disminer.png": "/GYS_Site/build/static/media/disminer.75817919337bc8efc674.png",
     "static/media/main_bg.png": "/GYS_Site/build/static/media/main_bg.653979e4e5735bbd237e.png",
@@ -24,11 +24,11 @@
     "static/media/he.jfif": "/GYS_Site/build/static/media/he.f4060664f4065ee81936.jfif",
     "index.html": "/GYS_Site/build/index.html",
     "main.56254a98.css.map": "/GYS_Site/build/static/css/main.56254a98.css.map",
-    "main.3a9768dc.js.map": "/GYS_Site/build/static/js/main.3a9768dc.js.map",
+    "main.ce6f3804.js.map": "/GYS_Site/build/static/js/main.ce6f3804.js.map",
     "787.bd664e3e.chunk.js.map": "/GYS_Site/build/static/js/787.bd664e3e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.56254a98.css",
-    "static/js/main.3a9768dc.js"
+    "static/js/main.ce6f3804.js"
   ]
 }
