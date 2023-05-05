@@ -6,22 +6,26 @@ import NavBar from './navbar/navbar'
 import WebsitesPage from '../../pages/pricing/websites/websites'
 import ContactPage from '../../pages/contact/contact'
 import TopHeader from './topheader/topheader'
-import MinecraftHostingPage from '../../pages/pricing/minecraft hosting/mchosting'
+import DiscordHostingPage from '../../pages/pricing/discordhosting/discordhosting'
 import WebsiteHostingPage from '../../pages/pricing/website hosting/webhosting'
 import DiscordBotsPage from '../../pages/pricing/discord bots/discordbots'
+import FourOFourPage from '../../pages/404/404'
+import GrabPanelPage from '../../pages/grabpanel/grabpanel'
 function Navigator() {
   return (
-    <Router basename="/GYS_Site/build">
+    <Router>
       <TopHeader/>
       <NavBar/>
       <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/websites" element={<WebsitesPage />} />
           <Route path="/webhosting" element={<WebsiteHostingPage />} />
-          <Route path="/minecrafthosting" element={<MinecraftHostingPage />} />
+          <Route path="/discordhosting" element={<DiscordHostingPage />} />
           <Route path="/discordbots" element={<DiscordBotsPage />} />
           <Route path="/brandidentitydesigns" element={<PricingPage />} />
           <Route path="/graphics" element={<ContactPage />} />
+          <Route path="/grabpanel" element={<GrabPanelPage />} />
+          <Route path="*" element={<FourOFourPage/>} />
       </Routes>
     </Router>
   )

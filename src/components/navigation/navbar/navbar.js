@@ -72,7 +72,7 @@ function NavBar() {
                     justifySelf: 'center',
                     alignSelf: 'center',
                   }}>
-                    <a  style={{cursor: 'pointer'}} >Pricing <FaSortDown/></a>
+                    <a  style={{cursor: 'pointer'}} >Pricing</a>
                   </li>
                 }
                 className='modal-popup-nav'
@@ -86,17 +86,17 @@ function NavBar() {
                     </li>
                     <li className='modal-li'>
                       <Link to='/webhosting'>
-                        <p className='modal-a'>Web Hosting</p>
+                        <p className='modal-a'>Website Hosting</p>
                       </Link>                
                     </li>
                     <li className='modal-li'>
-                      <Link to='/minecrafthosting'>
-                        <p className='modal-a'>Minecraft Hosting</p>
+                      <Link to='/discordbots'>
+                        <p className='modal-a'>Discord Bots</p>
                       </Link>
                     </li>
                     <li className='modal-li'>
-                      <Link to='/discordbots'>
-                        <p className='modal-a'>Discord Bot</p>
+                      <Link to='/discordhosting'>
+                        <p className='modal-a'>Discord Bot Hosting</p>
                       </Link>
                     </li>
                     <li className='modal-li'>
@@ -106,35 +106,73 @@ function NavBar() {
                     </li>
                     <li className='modal-li'>
                       <Link to='/brandidentitydesigns'>
-                        <a href='/graphics' className='modal-a'>Graphics</a>
+                        <p className='modal-a'>Graphics</p>
                       </Link>
                     </li>
                   </FadeIn>
                 </Popup>
+                <li>
+                  <Link to='/'>
+                    <p className='modal-a'>Billing</p>
+                  </Link>
+                </li>
+                <Link style={{
+                  width: '100%',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    justifySelf: 'center',
+                    alignSelf: 'center',
+                    marginLeft: '20px',
+                  }} to="/grabpanel">
+                  <button className='home-header-button-fill'>GrabPanel</button>
+                </Link>  
               </ul>
             </nav>
             <GiHamburgerMenu color="#8271cb" onClick={toggleMenu} size={32} className='nav-icon' />
             <nav className={`nav-hamburger-menu ${isOpen ? "open" : ""}`}>
-              <ul className="hamburger-menu-list">
-                <li className="hamburger-menu-item"><a href="#">Home</a></li>
-                <li className="hamburger-menu-item">
-                  <a href='/contact'>Websites</a>
-                </li>
-                <li className="hamburger-menu-item">
-                  <a href='/contact'>Web Hosting</a>
-                </li>
-                <li className="hamburger-menu-item">
-                  <a href='/contact'>Minecraft Hosting</a>
-                </li>
-                <li className="hamburger-menu-item">
-                  <a href='/contact'>Discord Bot</a>
-                </li>
-                <li className="hamburger-menu-item">
-                  <a href='/contact'>Brand Identity Design</a>
-                </li>
-                <li className="hamburger-menu-item">
-                  <a href='/contact'>Graphics</a>
-                </li>
+              <ul className="hamburger-menu-list" onClick={toggleMenu}>
+                  <FadeIn>
+                    <li className="hamburger-menu-item">
+                      <Link to='/'>
+                        <p className='modal-a'>Home</p>
+                      </Link>
+                    </li>
+                    <li className='modal-li'>
+                      <Link to='/websites'>
+                        <p className='modal-a'>Websites</p>
+                      </Link>
+                    </li>
+                    <li className='modal-li'>
+                      <Link to='/webhosting'>
+                        <p className='modal-a'>Website Hosting</p>
+                      </Link>                
+                    </li>
+                    <li className='modal-li'>
+                      <Link to='/discordbots'>
+                        <p className='modal-a'>Discord Bots</p>
+                      </Link>
+                    </li>
+                    <li className='modal-li'>
+                      <Link to='/discordhosting'>
+                        <p className='modal-a'>Discord Bot Hosting</p>
+                      </Link>
+                    </li>
+                    <li className='modal-li'>
+                      <Link to='/brandidentitydesigns'>
+                        <p className='modal-a'>Brand Identity Design</p>
+                      </Link>
+                    </li>
+                    <li className='modal-li'>
+                      <Link to='/brandidentitydesigns'>
+                        <p className='modal-a'>Graphics</p>
+                      </Link>
+                    </li>
+                    <li className='modal-li'>
+                      <Link to='/grabpanel'>
+                        <p className='modal-a'>GrabPanel</p>
+                      </Link>
+                    </li>
+                  </FadeIn>
                 <button onClick={toggleMenu} style={{
                   backgroundColor:'white',
                   width: '100%',

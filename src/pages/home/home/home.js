@@ -15,9 +15,9 @@ import FadeIn from 'react-fade-in'
 import weird from '../../../imgs/assets/animals/weird.png'
 import rabbit from '../../../imgs/assets/animals/rabbit.png'
 function HomePage() {
-  const myRef = useRef(null)
-  
-  const executeScroll = () => { if (myRef.current) {myRef.current.scrollIntoView()} }
+  React.useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <>
     <div className='home-container'>

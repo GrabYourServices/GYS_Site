@@ -170,6 +170,57 @@
         margin-top: 0;
     }
 }
+.websites-pricing-header-tier-heading-buttons-bronze {
+    width: 80%;
+    background-color: #CD7F32;
+    color: white;
+    border-radius: 5px;
+    font-family: satoshiBold;
+    padding: 10px 20px;
+    margin-top: 2rem;
+    border: 3px solid transparent;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.websites-pricing-header-tier-heading-buttons-bronze:hover {
+    opacity: 0.65;
+}
+.websites-pricing-header-tier-heading-buttons-main {
+    width: 80%;
+    background-color: #FFD700;
+    color: white;
+    border-radius: 5px;
+    font-family: satoshiBold;
+    padding: 10px 20px;
+    margin-top: 2rem;
+    border: 3px solid transparent;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.websites-pricing-header-tier-heading-buttons-main:hover {
+    opacity: 0.65;
+}
+.websites-pricing-header-tier-heading-buttons-silver {
+    width: 80%;
+    background-color: #808080;
+    color: white;
+    border-radius: 5px;
+    font-family: satoshiBold;
+    padding: 10px 20px;
+    margin-top: 2rem;
+    border: 3px solid transparent;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.websites-pricing-header-tier-heading-buttons-silver:hover {
+    opacity: 0.65;
+}
 @media (max-width: 768px) {
     .websites-pricing-header-text {
         margin-right: 2rem;

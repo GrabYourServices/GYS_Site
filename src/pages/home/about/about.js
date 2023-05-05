@@ -15,8 +15,8 @@ function AboutPage() {
           We work day and night to give you the product we know you deserve!
           </p>
           <div className='home-header-buttons' style={{width: '100%'}}>
-            <Link style={{width: '50%'}} to="/">
-              <button className='home-header-button-fill'>Go to Pane</button>
+            <Link style={{width: '50%'}} to="/grabpanel">
+              <button className='home-header-button-fill'>Go to Panel</button>
             </Link>  
             <Link style={{width: '50%'}} to="/webhosting">
               <button className='home-header-button-outline'>Host a website</button>

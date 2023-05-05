@@ -1,0 +1,59 @@
+.fourofour-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../imgs/bgs/5_contact_bg.png');
+}
+.fourofour-texts {
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 10px var(--primary);
+    background-color: rgba(23, 18, 45, 0.65);
+    color: white;
+    margin-right: 25rem;
+    margin-left: 25rem;
+    display: flex;
+    flex-direction: column;
+}
+.fourofour-heading {
+    font-family: satoshiBold;
+    margin: 0;
+}
+.fourofour-para {
+    font-family: satoshiMain;
+}
+.fourofour-button {
+    width: 100%;
+    padding-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    padding-bottom: 15px;
+    background-color: white;
+    color: var(--primary);
+    font-family: satoshiBold;
+    transition: opacity 0.75s ease-in-out;
+}
+.fourofour-button:hover {
+    opacity: 0.75;
+}
+@media (max-width: 1080px) {
+    .fourofour-texts {
+        margin-right: 10rem;
+        margin-left: 10rem;
+    }
+}
+@media (max-width: 960px) {
+    .fourofour-texts {
+        margin-right: 5rem;
+        margin-left: 5rem;
+    }
+}
+@media (max-width: 768px) {
+    .fourofour-texts {
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+}
