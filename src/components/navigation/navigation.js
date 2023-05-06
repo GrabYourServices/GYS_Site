@@ -13,7 +13,7 @@ import FourOFourPage from '../../pages/404/404'
 import GrabPanelPage from '../../pages/grabpanel/grabpanel'
 function Navigator() {
   return (
-    <Router basename='/GYS_Site/build'>
+    <Router basename='/'>
       <TopHeader/>
       <NavBar/>
       <Routes>
