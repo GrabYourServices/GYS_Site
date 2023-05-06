@@ -78,3 +78,8 @@
         width: 0%;
     }
 }
+@media (max-width: 768px) {
+    .link {
+        width: 100%;
+    }
+}
