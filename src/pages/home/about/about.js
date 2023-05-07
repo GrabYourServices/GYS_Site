@@ -19,7 +19,7 @@ function AboutPage() {
               <button className='home-header-button-fill'>Go to Panel</button>
             </Link>  
             <Link style={{width: '50%'}} className='link' to="/webhosting">
-              <button className='home-header-button-outline'>Host a website</button>
+              <button className='home-header-button-outline'>Host an Application</button>
             </Link>        
           </div>
         </div>

@@ -11,6 +11,7 @@
     box-shadow: 0 0 10px 10px var(--primary);
     margin-right: 5rem;
     margin-left: 5rem;
+    margin-top: 50px;
     color: white;
     background-color: rgba(23, 18, 45, 0.9);
 }
@@ -24,7 +25,7 @@
     justify-content: center;
 }
 .work {
-    margin: 30px;
+    margin: 1rem;
     width: 275px;
     height: 275px;
     display: flex;
@@ -66,6 +67,21 @@
     font-family: satoshiBold;
     font-size: 52px;
 }
+.work-text-hidden {
+    display: none;
+    transition: display 0.5s ease-in-out;
+    position: absolute;
+
+}
+.work-text {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    transition: display 0.5s ease-in-out;
+    color: white;
+    font-family: satoshiBold;
+    font-size: 36px;
+}
 @media (max-width: 768px) {
     .work-header {
         margin-right: 2rem;
@@ -79,5 +95,8 @@
         font-size: 32px;
         margin-right: 25px;
         margin-left: 25px;
+    }
+    .work {
+        width: fit-content;
     }
 }

@@ -14,6 +14,7 @@ import ContactPage from '../contact/contact'
 import FadeIn from 'react-fade-in'
 import weird from '../../../imgs/assets/animals/weird.png'
 import rabbit from '../../../imgs/assets/animals/rabbit.png'
+import SupportPage from '../support/support'
 function HomePage() {
   React.useEffect(() => {
     window.scrollTo(0, 0)
@@ -25,14 +26,14 @@ function HomePage() {
         <div className='home-header-root'>
           <div className='home-header'>
             <div className='home-header-texts'>
-              <h1 className='home-header-heading'><span className="home-header-heading" style={{backgroundImage: 'linear-gradient(to right, #5b45bb, #c6bcf1)', color: 'transparent', WebkitBackgroundClip: 'text', backgroundClip: 'text'}}>Bringing Your<br/> Ideas to Life</span></h1>
+              <h1 className='home-header-heading'><span className="home-header-heading" style={{backgroundImage: 'linear-gradient(to right, #5b45bb, #c6bcf1)', color: 'transparent', WebkitBackgroundClip: 'text', backgroundClip: 'text'}}>Hosting Your<br/> Ideas.</span></h1>
               <p style={{color: 'white',fontSize: '20px',  fontFamily: 'satoshiMain', textAlign:'left'}}>Our team of expert developers works tirelessly to bring your ideas to life. From conceptualization to launch, we'll be with you every step of the way. Trust us to transform your digital landscape with our cutting-edge technology and innovative solutions. Let's build something amazing together!</p>
               <div className='home-header-buttons'>
                 <Link style={{width: '50%'}} to="/websites">
                   <button className='home-header-button-fill'>Buy a Website</button>
                 </Link>  
                 <Link style={{width: '50%'}} to="/webhosting">
-                  <button className='home-header-button-outline'>Host a website</button>
+                  <button className='home-header-button-outline'>Host an Application</button>
                 </Link>              
               </div>
             </div>
@@ -61,10 +62,9 @@ function HomePage() {
         <div style={{position:'relative'}}>
           <AboutPage/>
         </div>
-        <div style={{position:'relative'}}>
-          <WorkPage/>
-        </div>
+        <SupportPage/>
         <PricesPage/>
+        <WorkPage/>
         <ContactPage/>
       </FadeIn>
       <div style={{
@@ -80,7 +80,7 @@ function HomePage() {
         <p style={{
           padding: '20px'
         }}>
-          Copyright CC 2023 : GrabYourServices.com. Made with Love by Ateeb Sohail(Employee @ GrabYourServices)
+          Copyright CC 2023. Licensed and Registered by SunnyCSB under GrabYourServices
         </p>
       </div>
     </div>
