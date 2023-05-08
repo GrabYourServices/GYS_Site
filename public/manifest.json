@@ -1,6 +1,6 @@
 {
   "short_name": "Grab Your Services",
-  "name": "Get webhosting from 0.99$/mo and discord bots from 0.99$/mo. Grab Your Services, your one stop for starting a business.",
+  "name": "Get hosting from just 1$ per month on very powerful servers. What else is better?",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#3b2d74",
+  "background_color": "#32285d"
 }
