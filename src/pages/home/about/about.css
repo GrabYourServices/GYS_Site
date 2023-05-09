@@ -2,6 +2,7 @@
 :root {
     --primary:#32285d;
     --secondary: #3b2d74;
+    --primary-light: #504483;
 }
 
 @font-face {

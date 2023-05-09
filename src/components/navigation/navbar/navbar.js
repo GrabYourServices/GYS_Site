@@ -100,7 +100,7 @@ function NavBar() {
                       </Link>
                     </li>
                     <li className='modal-li'>
-                      <Link to='/brandidentitydesigns'>
+                      <Link to='/graphics'>
                         <p className='modal-a'>Graphics</p>
                       </Link>
                     </li>
@@ -153,7 +153,7 @@ function NavBar() {
                       </Link>
                     </li>
                     <li className='modal-li'>
-                      <Link to='/brandidentitydesigns'>
+                      <Link to='/graphics'>
                         <p className='modal-a'>Graphics</p>
                       </Link>
                     </li>
