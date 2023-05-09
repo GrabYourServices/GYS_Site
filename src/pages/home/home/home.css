@@ -175,10 +175,6 @@
     .home-header-images-1 {
         display: none;
     }
-    .home-header-buttons {
-        width: 100%;
-        flex-direction: column;
-    }
     .home-header-button-fill {
         margin-bottom: 5px;
         width: 100%;
