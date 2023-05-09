@@ -27,14 +27,14 @@ function HomePage() {
           <div className='home-header'>
             <div className='home-header-texts'>
               <h1 className='home-header-heading'><span className="home-header-heading" style={{backgroundImage: 'linear-gradient(to right, #5b45bb, #c6bcf1)', color: 'transparent', WebkitBackgroundClip: 'text', backgroundClip: 'text'}}>Hosting Your<br/> Ideas.</span></h1>
-              <p style={{color: 'white',fontSize: '20px',  fontFamily: 'satoshiMain', textAlign:'left'}}>Our team of expert developers works tirelessly to bring your ideas to life. From conceptualization to launch, we'll be with you every step of the way. Trust us to transform your digital landscape with our cutting-edge technology and innovative solutions. Let's build something amazing together!</p>
-              <div className='home-header-buttons'>
-                <Link style={{width: '50%'}} to="/websites">
+              <p style={{color: 'white',fontSize: '20px',  fontFamily: 'satoshiMain', textAlign:'left'}}>Our team of expert developers works tirelessly to bring your ideas to life. From conceptualization to launch, we'll be with you every step of the way. Trust us to transform your digital landscape with our cutting-edge technology and innovative solutions. Let's build something amazing together!</p>         
+              <div className='home-header-buttons' style={{width: '100%'}}>
+                <Link className='link' to="/grabpanel">
                   <button className='home-header-button-fill'>Buy a Website</button>
                 </Link>  
-                <Link style={{width: '50%'}} to="/webhosting">
+                <Link className='link' to="/webhosting">
                   <button className='home-header-button-outline'>Host an Application</button>
-                </Link>              
+                </Link>        
               </div>
             </div>
           </div>

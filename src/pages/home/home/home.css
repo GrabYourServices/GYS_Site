@@ -159,6 +159,7 @@
     }
     .home-header-buttons {
         width: 100%;
+        flex-direction: column;
     }
     .home-header-button-fill {
         margin: 0;
