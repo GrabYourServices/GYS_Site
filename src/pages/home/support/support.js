@@ -19,7 +19,6 @@ function SupportPage() {
         <SiApache color='#e4682a' className='support-item' size={96}/>
         <SiJavascript color='#f0db4f' className='support-item' size={96}/>
         <SiNodemon color='#76D04B' className='support-item' size={96}/>
-        <SiMinecraft color='#AAAAAA' className='support-item' size={96}/>
         <TbBrandGolang color='#00ADD8' className='support-item' size={96}/>
       </div>
     </div>

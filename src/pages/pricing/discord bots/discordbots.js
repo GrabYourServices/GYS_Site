@@ -13,7 +13,7 @@ function DiscordBotsPage() {
       <div className='websites-pricing-container'>
         <div className='websites-pricing-header'>
           <div className='websites-pricing-header-text'>
-            <h1 className='websites-pricing-header-heading'><span className="websites-pricing-header-heading" style={{backgroundImage: 'linear-gradient(to right, #5b45bb, #c6bcf1)', color: 'transparent', WebkitBackgroundClip: 'text', backgroundClip: 'text'}}>Discord Bot Tiers</span></h1>
+            <h1 className='websites-pricing-header-heading'><span className="websites-pricing-header-heading" style={{backgroundImage: 'linear-gradient(to right, #5b45bb, #c6bcf1)', color: 'transparent', WebkitBackgroundClip: 'text', backgroundClip: 'text'}}>Discord Bot</span></h1>
             <p className='websites-pricing-header-para' style={{color: 'white',fontSize: '20px', fontFamily: 'satoshiMain'}}>Our discord bots are of epic quality at an epic price. We provide you amazing websites that are fully responsive, fast & efficient. The source code is given to you via either <a className='websites-pricing-links' style={{textDecoration: 'color', color: '#d62976', fontFamily: 'satoshiBold'}} href='https://instagram.com/grabyourservices'>Instagram</a>, <a className='websites-pricing-links' style={{textDecoration: 'color', color: '#ffffff', fontFamily: 'satoshiBold'}} href='#'>Whatsapp</a> or <a style={{textDecoration: 'color', color: '#7289da', fontFamily: 'satoshiBold'}} className='websites-pricing-links' href='https://discord.gg/3yHfjcKgr8'>Discord</a>.<br/>All prices are in United States Dollar(USD)</p>
           </div>
           <div className='websites-pricing-header-tiers'>

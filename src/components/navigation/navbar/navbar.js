@@ -85,23 +85,18 @@ function NavBar() {
                       </Link>
                     </li>
                     <li className='modal-li'>
-                      <Link to='/webhosting'>
-                        <p className='modal-a'>Website Hosting</p>
+                      <Link to='/apphosting'>
+                        <p className='modal-a'>Application Hosting</p>
                       </Link>                
+                    </li>
+                    <li className='modal-li'>
+                      <Link to='/gamehosting'>
+                        <p className='modal-a'>Game Hosting</p>
+                      </Link>
                     </li>
                     <li className='modal-li'>
                       <Link to='/discordbots'>
                         <p className='modal-a'>Discord Bots</p>
-                      </Link>
-                    </li>
-                    <li className='modal-li'>
-                      <Link to='/discordhosting'>
-                        <p className='modal-a'>Discord Bot Hosting</p>
-                      </Link>
-                    </li>
-                    <li className='modal-li'>
-                      <Link to='/brandidentitydesigns'>
-                        <p className='modal-a'>Brand Identity Design</p>
                       </Link>
                     </li>
                     <li className='modal-li'>
@@ -143,23 +138,18 @@ function NavBar() {
                       </Link>
                     </li>
                     <li className='modal-li'>
-                      <Link to='/webhosting'>
-                        <p className='modal-a'>Website Hosting</p>
+                      <Link to='/apphosting'>
+                        <p className='modal-a'>Application Hosting</p>
                       </Link>                
+                    </li>
+                    <li className='modal-li'>
+                      <Link to='/gamehosting'>
+                        <p className='modal-a'>Game Hosting</p>
+                      </Link>
                     </li>
                     <li className='modal-li'>
                       <Link to='/discordbots'>
                         <p className='modal-a'>Discord Bots</p>
-                      </Link>
-                    </li>
-                    <li className='modal-li'>
-                      <Link to='/discordhosting'>
-                        <p className='modal-a'>Discord Bot Hosting</p>
-                      </Link>
-                    </li>
-                    <li className='modal-li'>
-                      <Link to='/brandidentitydesigns'>
-                        <p className='modal-a'>Brand Identity Design</p>
                       </Link>
                     </li>
                     <li className='modal-li'>

@@ -1,0 +1,40 @@
+.supportgame-header {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    color: white;
+    border-radius: 15px;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: 0 0 10px 10px var(--primary);
+    background-color: rgba(23, 18, 45, 0.9);
+}
+
+.supportgame-container {
+    display: flex;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.supportgame-item {
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+@media (max-width: 768px) {
+    .supportgame-header {
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+    .supportgame-item {
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
+    }
+}

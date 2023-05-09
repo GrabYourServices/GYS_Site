@@ -95,6 +95,7 @@
         font-size: 32px;
         margin-right: 25px;
         margin-left: 25px;
+        line-height: 10px;
     }
     .work {
         width: fit-content;
