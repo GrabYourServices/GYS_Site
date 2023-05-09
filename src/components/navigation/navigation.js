@@ -12,6 +12,7 @@ import DiscordBotsPage from '../../pages/pricing/discord bots/discordbots'
 import FourOFourPage from '../../pages/404/404'
 import GrabPanelPage from '../../pages/grabpanel/grabpanel'
 import GraphicsPage from '../../pages/pricing/graphics/graphics'
+import GrabBillingPage from '../../pages/grabbilling/grabbilling'
 function Navigator() {
   return (
     <Router basename='/'>
@@ -25,6 +26,7 @@ function Navigator() {
           <Route path="/discordbots" element={<DiscordBotsPage />} />
           <Route path="/graphics" element={<GraphicsPage />} />
           <Route path="/grabpanel" element={<GrabPanelPage />} />
+          <Route path="/grabbilling" element={<GrabBillingPage />} />
           <Route path="*" element={<FourOFourPage/>} />
       </Routes>
     </Router>
