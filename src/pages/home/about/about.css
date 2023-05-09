@@ -67,6 +67,9 @@
     align-items: flex-start;
     text-align: start;
 }
+.link {
+    width: 50%;
+}
 @media (max-width: 960px) {
     .about-container {
         margin-right: 2rem;
