@@ -6,7 +6,7 @@ function ContactPage() {
     window.open('https://wa.me/00923362833222')
   }
   const discord = () => {
-    window.open('https://discord.gg/3yHfjcKgr8')
+    window.open('https://discord.gg/WPq6zWuM')
   }
   const instagram = () => {
     window.open('https://instagram.com/grabyourservices')
