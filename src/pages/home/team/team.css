@@ -1,0 +1,167 @@
+.team-header {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-right: 5rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: 0 0 10px 10px var(--primary);
+    margin-left: 5rem;
+    background-color: rgba(23, 18, 45, 0.9);
+}
+
+.team-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+/*
+    Team Classes
+*/
+.team-people {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 3rem;
+    flex-direction: row;
+    margin-top: 3rem;
+    justify-content: start;
+    align-items: center;
+}
+/* 
+    CEO Classes
+*/
+.team-person {
+    display: flex;
+    width: fit-content;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+.team-ceo {
+    display: flex;
+    width: 100%;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.team-ceo-texts {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-family: satoshiBold;
+}
+.team-name {
+    margin-bottom: 0;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.team-role {
+    color: #D9D9D9;
+    cursor: pointer;
+    margin-top: 0;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 0;
+}
+.team-ceo-img {
+    border-radius: 50%;
+    margin-left: 5rem;
+    cursor: pointer;
+    height: 256px;
+    width: 256px;
+    margin-top: 2rem;
+    transition: all 0.3s ease-in-out;
+}
+.team-person-img {
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 5rem;
+    height: 128px;
+    width: 128px;
+    margin-top: 2rem;
+    transition: all 0.3s ease-in-out;
+}
+.team-country {
+    margin-top: 0;
+    margin-bottom: 0;
+    cursor: pointer;
+    color: #D9D9D9;
+    transition: all 0.3s ease-in-out;
+    font-family: satoshiMain;
+}
+.team-description {
+    text-align: start;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-family: satoshiMain;
+}
+.team-name:hover {
+    opacity: 0.7;
+}
+.team-role:hover {
+    opacity: 0.7;
+}
+.team-description:hover {
+    opacity: 0.7;
+}
+.team-country:hover {
+    opacity: 0.7;
+}
+.team-ceo-img:hover {
+    opacity: 0.7;
+}
+.team-person-img:hover {
+    opacity: 0.7;
+}
+@media (max-width: 960px) {
+    .team-ceo-img {
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .team-header {
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+    .team-ceo {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 2rem;
+        text-align: center;
+    }
+    .team-ceo-texts {
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .team-role {
+        text-align: center;
+        width: 100%;
+    }
+    .team-name {
+        text-align: center;
+        width: 100%;
+    }
+    .team-country {
+        text-align: center;
+        width: 100%;
+    }
+    .team-description {
+        text-align: center;
+        width: 100%;
+    }
+}

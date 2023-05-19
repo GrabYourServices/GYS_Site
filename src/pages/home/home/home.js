@@ -11,10 +11,12 @@ import tiger from '../../../imgs/assets/animals/tiger.png'
 import WorkPage from '../work/work'
 import PricesPage from '../prices/prices'
 import ContactPage from '../contact/contact'
+import TeamPage from '../team/team'
 import FadeIn from 'react-fade-in'
 import weird from '../../../imgs/assets/animals/weird.png'
 import rabbit from '../../../imgs/assets/animals/rabbit.png'
 import SupportPage from '../support/support'
+import { websitePrices, discordBotPrices, appHostingPrices, gameHostingPrices, graphicsPrices} from '../../../data/prices'
 function HomePage() {
   React.useEffect(() => {
     window.scrollTo(0, 0)
@@ -65,6 +67,7 @@ function HomePage() {
         <SupportPage/>
         <PricesPage/>
         <WorkPage/>
+        <TeamPage/>
         <ContactPage/>
       </FadeIn>
       <div style={{

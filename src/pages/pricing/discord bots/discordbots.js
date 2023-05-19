@@ -3,6 +3,7 @@ import './discordbots.css'
 import { FaCheck } from 'react-icons/fa'
 import ContactPage from '../../home/contact/contact'
 import FadeIn from 'react-fade-in/lib/FadeIn'
+import { discordBotPrices } from '../../../data/prices'
 function DiscordBotsPage() {
   React.useEffect(() => {
     window.scrollTo(0, 0)
@@ -21,7 +22,7 @@ function DiscordBotsPage() {
               <div className='websites-pricing-header-tier-bronze'>
                 <h1 className='websites-pricing-header-tier-heading' style={{marginBottom: '0', lineHeight: '0'}} ><span className="websites-pricing-header-tier-heading" style={{color: '#CD7F32', WebkitBackgroundClip: 'text', backgroundClip: 'text'}}>Bronze</span></h1>
                 <p style={{textAlign: 'center',opacity: '1',marginBottom: '0', fontSize: '16px'}}>NOW</p>
-                <h1 className='websites-pricing-header-tier-heading-price' style={{textAlign: 'center',marginBottom: '2rem'}}><span className="websites-pricing-header-tier-heading-price" style={{color: '#CD7F32', opacity:'0.5', WebkitBackgroundClip: 'text', backgroundClip: 'text', marginTop: '0'}}>9.99$ - 14.99$</span></h1>
+                <h1 className='websites-pricing-header-tier-heading-price' style={{textAlign: 'center',marginBottom: '2rem'}}><span className="websites-pricing-header-tier-heading-price" style={{color: '#CD7F32', opacity:'0.5', WebkitBackgroundClip: 'text', backgroundClip: 'text', marginTop: '0'}}>{discordBotPrices.bronze}$ - {discordBotPrices.bronzeMax}$</span></h1>
                 <div>
                   <p style={{marginLeft:'10%', marginTop: '0', marginBottom: '5px', textAlign: 'left'}}><FaCheck color='#CD7F32' style={{marginRight: '7.5px'}}/>Project written in Javascript using DJS</p>
                   <p style={{marginLeft:'10%', marginTop: '0', marginBottom: '5px', textAlign: 'left'}}><FaCheck color='#CD7F32' style={{marginRight: '7.5px'}}/>Slash Commands/Message Commands</p>
@@ -44,7 +45,7 @@ function DiscordBotsPage() {
               <div className='websites-pricing-header-tier-main'>
                 <h1 className='websites-pricing-header-tier-heading' style={{textAlign: 'center',marginBottom: '0', lineHeight: '0'}} ><span className="websites-pricing-header-tier-heading" style={{color: '#FFD700', WebkitBackgroundClip: 'text', backgroundClip: 'text'}}>Gold</span></h1>
                 <p style={{textAlign: 'center',opacity: '1',marginBottom: '0', fontSize: '16px'}}>NOW</p>
-                <h1 className='websites-pricing-header-tier-heading-price' style={{textAlign: 'center',marginBottom: '2rem'}}><span className="websites-pricing-header-tier-heading-price" style={{color: '#FFD700', opacity:'0.5', WebkitBackgroundClip: 'text', backgroundClip: 'text', marginTop: '0'}}>49.99$ - 79.99$</span></h1>
+                <h1 className='websites-pricing-header-tier-heading-price' style={{textAlign: 'center',marginBottom: '2rem'}}><span className="websites-pricing-header-tier-heading-price" style={{color: '#FFD700', opacity:'0.5', WebkitBackgroundClip: 'text', backgroundClip: 'text', marginTop: '0'}}>{discordBotPrices.gold}$ - {discordBotPrices.goldMax}$</span></h1>
                 <div>
                   <p style={{marginLeft:'10%', marginTop: '0', marginBottom: '5px', textAlign: 'left'}}><FaCheck color='#FFD700' style={{marginRight: '7.5px'}}/>Project written in Javascript using DJS</p>
                   <p style={{marginLeft:'10%', marginTop: '0', marginBottom: '5px', textAlign: 'left'}}><FaCheck color='#FFD700' style={{marginRight: '7.5px'}}/>Slash Commands/Message Commands</p>
@@ -67,7 +68,7 @@ function DiscordBotsPage() {
               <div className='websites-pricing-header-tier-silver'>
                 <h1 className='websites-pricing-header-tier-heading' style={{marginBottom: '0', lineHeight: '0'}} ><span className="websites-pricing-header-tier-heading" style={{color: '#808080', WebkitBackgroundClip: 'text', backgroundClip: 'text'}}>Silver</span></h1>
                 <p style={{textAlign: 'center',opacity: '1',marginBottom: '0', fontSize: '16px'}}>NOW</p>
-                <h1 className='websites-pricing-header-tier-heading-price' style={{textAlign: 'center',marginBottom: '2rem'}}><span className="websites-pricing-header-tier-heading-price" style={{color: '#808080', opacity:'0.5', WebkitBackgroundClip: 'text', backgroundClip: 'text', marginTop: '0'}}>19.99$ - 29.99$</span></h1>
+                <h1 className='websites-pricing-header-tier-heading-price' style={{textAlign: 'center',marginBottom: '2rem'}}><span className="websites-pricing-header-tier-heading-price" style={{color: '#808080', opacity:'0.5', WebkitBackgroundClip: 'text', backgroundClip: 'text', marginTop: '0'}}>{discordBotPrices.silver}$ - {discordBotPrices.silverMax}$</span></h1>
                 <div>
                   <p style={{marginLeft:'10%', marginTop: '0', marginBottom: '5px', textAlign: 'left'}}><FaCheck color='#808080' style={{marginRight: '7.5px'}}/>Project written in Javascript using DJS</p>
                   <p style={{marginLeft:'10%', marginTop: '0', marginBottom: '5px', textAlign: 'left'}}><FaCheck color='#808080' style={{marginRight: '7.5px'}}/>Slash Commands/Message Commands</p>

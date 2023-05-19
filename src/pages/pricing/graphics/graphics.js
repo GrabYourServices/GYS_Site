@@ -4,6 +4,7 @@ import { FaCheck } from 'react-icons/fa'
 import ContactPage from '../../home/contact/contact'
 import FadeIn from 'react-fade-in/lib/FadeIn'
 import { Link } from 'react-router-dom'
+import { graphicsPrices } from '../../../data/prices'
 function GraphicsPage() {
   React.useEffect(() => {
     window.scrollTo(0, 0)
@@ -22,7 +23,7 @@ function GraphicsPage() {
               
               <div className='websites-pricing-header-tier-normal'>
                 <h1 className='websites-pricing-header-tier-heading' style={{marginBottom: '0', lineHeight: '0'}} ><span className="websites-pricing-header-tier-heading" style={{color: 'var(--primary-light)', WebkitBackgroundClip: 'text', backgroundClip: 'text'}}>Logo</span></h1>
-                <h1 className='websites-pricing-header-tier-heading-price' style={{textAlign: 'center',marginBottom: '2rem'}}><span className="websites-pricing-header-tier-heading-price" style={{color: 'white', opacity:'0.8', WebkitBackgroundClip: 'text', backgroundClip: 'text', marginTop: '0'}}>9.99$</span></h1>
+                <h1 className='websites-pricing-header-tier-heading-price' style={{textAlign: 'center',marginBottom: '2rem'}}><span className="websites-pricing-header-tier-heading-price" style={{color: 'white', opacity:'0.8', WebkitBackgroundClip: 'text', backgroundClip: 'text', marginTop: '0'}}>{graphicsPrices.logoDesign}$</span></h1>
                 <div>
                   <p style={{marginLeft:'10%', marginTop: '0', marginBottom: '5px', textAlign: 'left'}}><FaCheck color='var(--primary-light)' style={{marginRight: '7.5px'}}/>SVG Given</p>
                   <p style={{marginLeft:'10%', marginTop: '0', marginBottom: '5px', textAlign: 'left'}}><FaCheck color='var(--primary-light)' style={{marginRight: '7.5px'}}/>Transparency Given</p>
@@ -43,7 +44,7 @@ function GraphicsPage() {
 
               <div className='websites-pricing-header-tier-normal'>
                 <h1 className='websites-pricing-header-tier-heading' style={{marginBottom: '0', lineHeight: '0'}} ><span className="websites-pricing-header-tier-heading" style={{color: 'var(--primary-light)', WebkitBackgroundClip: 'text', backgroundClip: 'text'}}>Brand Identity</span></h1>
-                <h1 className='websites-pricing-header-tier-heading-price' style={{textAlign: 'center',marginBottom: '2rem'}}><span className="websites-pricing-header-tier-heading-price" style={{color: 'white', opacity:'0.8', WebkitBackgroundClip: 'text', backgroundClip: 'text', marginTop: '0'}}>29.99$</span></h1>
+                <h1 className='websites-pricing-header-tier-heading-price' style={{textAlign: 'center',marginBottom: '2rem'}}><span className="websites-pricing-header-tier-heading-price" style={{color: 'white', opacity:'0.8', WebkitBackgroundClip: 'text', backgroundClip: 'text', marginTop: '0'}}>{graphicsPrices.brandIdentityDesign}$</span></h1>
                 <div>
                   <p style={{marginLeft:'10%', marginTop: '0', marginBottom: '5px', textAlign: 'left'}}><FaCheck color='var(--primary-light)' style={{marginRight: '7.5px'}}/>SVG Given</p>
                   <p style={{marginLeft:'10%', marginTop: '0', marginBottom: '5px', textAlign: 'left'}}><FaCheck color='var(--primary-light)' style={{marginRight: '7.5px'}}/>Transparency Given</p>
@@ -64,7 +65,7 @@ function GraphicsPage() {
 
               <div className='websites-pricing-header-tier-normal'>
                 <h1 className='websites-pricing-header-tier-heading' style={{marginBottom: '0', lineHeight: '0'}} ><span className="websites-pricing-header-tier-heading" style={{color: 'var(--primary-light)', WebkitBackgroundClip: 'text', backgroundClip: 'text'}}>Business Card</span></h1>
-                <h1 className='websites-pricing-header-tier-heading-price' style={{textAlign: 'center',marginBottom: '2rem'}}><span className="websites-pricing-header-tier-heading-price" style={{color: 'white', opacity:'0.8', WebkitBackgroundClip: 'text', backgroundClip: 'text', marginTop: '0'}}>4.99$</span></h1>
+                <h1 className='websites-pricing-header-tier-heading-price' style={{textAlign: 'center',marginBottom: '2rem'}}><span className="websites-pricing-header-tier-heading-price" style={{color: 'white', opacity:'0.8', WebkitBackgroundClip: 'text', backgroundClip: 'text', marginTop: '0'}}>{graphicsPrices.businessCardDesign}$</span></h1>
                 <div>
                   <p style={{marginLeft:'10%', marginTop: '0', marginBottom: '5px', textAlign: 'left'}}><FaCheck color='var(--primary-light)' style={{marginRight: '7.5px'}}/>SVG Given</p>
                   <p style={{marginLeft:'10%', marginTop: '0', marginBottom: '5px', textAlign: 'left'}}><FaCheck color='var(--primary-light)' style={{marginRight: '7.5px'}}/>Transparency Given</p>
@@ -89,7 +90,7 @@ function GraphicsPage() {
               
               <div className='websites-pricing-header-tier-normal'>
                 <h1 className='websites-pricing-header-tier-heading' style={{marginBottom: '0', lineHeight: '0'}} ><span className="websites-pricing-header-tier-heading" style={{color: 'var(--primary-light)', WebkitBackgroundClip: 'text', backgroundClip: 'text'}}>Letterhead</span></h1>
-                <h1 className='websites-pricing-header-tier-heading-price' style={{textAlign: 'center',marginBottom: '2rem'}}><span className="websites-pricing-header-tier-heading-price" style={{color: 'white', opacity:'0.8', WebkitBackgroundClip: 'text', backgroundClip: 'text', marginTop: '0'}}>4.99$</span></h1>
+                <h1 className='websites-pricing-header-tier-heading-price' style={{textAlign: 'center',marginBottom: '2rem'}}><span className="websites-pricing-header-tier-heading-price" style={{color: 'white', opacity:'0.8', WebkitBackgroundClip: 'text', backgroundClip: 'text', marginTop: '0'}}>{graphicsPrices.letterHeadDesign}$</span></h1>
                 <div>
                   <p style={{marginLeft:'10%', marginTop: '0', marginBottom: '5px', textAlign: 'left'}}><FaCheck color='var(--primary-light)' style={{marginRight: '7.5px'}}/>SVG Given</p>
                   <p style={{marginLeft:'10%', marginTop: '0', marginBottom: '5px', textAlign: 'left'}}><FaCheck color='var(--primary-light)' style={{marginRight: '7.5px'}}/>Transparency Given</p>
@@ -110,7 +111,7 @@ function GraphicsPage() {
 
               <div className='websites-pricing-header-tier-normal'>
                 <h1 className='websites-pricing-header-tier-heading' style={{marginBottom: '0', lineHeight: '0'}} ><span className="websites-pricing-header-tier-heading" style={{color: 'var(--primary-light)', WebkitBackgroundClip: 'text', backgroundClip: 'text'}}>Flyer Design</span></h1>
-                <h1 className='websites-pricing-header-tier-heading-price' style={{textAlign: 'center',marginBottom: '2rem'}}><span className="websites-pricing-header-tier-heading-price" style={{color: 'white', opacity:'0.8', WebkitBackgroundClip: 'text', backgroundClip: 'text', marginTop: '0'}}>9.99$</span></h1>
+                <h1 className='websites-pricing-header-tier-heading-price' style={{textAlign: 'center',marginBottom: '2rem'}}><span className="websites-pricing-header-tier-heading-price" style={{color: 'white', opacity:'0.8', WebkitBackgroundClip: 'text', backgroundClip: 'text', marginTop: '0'}}>{graphicsPrices.flyerDesign}$</span></h1>
                 <div>
                   <p style={{marginLeft:'10%', marginTop: '0', marginBottom: '5px', textAlign: 'left'}}><FaCheck color='var(--primary-light)' style={{marginRight: '7.5px'}}/>SVG Given</p>
                   <p style={{marginLeft:'10%', marginTop: '0', marginBottom: '5px', textAlign: 'left'}}><FaCheck color='var(--primary-light)' style={{marginRight: '7.5px'}}/>Transparency Given</p>
@@ -131,7 +132,7 @@ function GraphicsPage() {
 
               <div className='websites-pricing-header-tier-normal'>
                 <h1 className='websites-pricing-header-tier-heading' style={{marginBottom: '0', lineHeight: '0'}} ><span className="websites-pricing-header-tier-heading" style={{color: 'var(--primary-light)', WebkitBackgroundClip: 'text', backgroundClip: 'text'}}>Website UI</span></h1>
-                <h1 className='websites-pricing-header-tier-heading-price' style={{textAlign: 'center',marginBottom: '2rem'}}><span className="websites-pricing-header-tier-heading-price" style={{color: 'white', opacity:'0.8', WebkitBackgroundClip: 'text', backgroundClip: 'text', marginTop: '0'}}>29.99$</span></h1>
+                <h1 className='websites-pricing-header-tier-heading-price' style={{textAlign: 'center',marginBottom: '2rem'}}><span className="websites-pricing-header-tier-heading-price" style={{color: 'white', opacity:'0.8', WebkitBackgroundClip: 'text', backgroundClip: 'text', marginTop: '0'}}>{graphicsPrices.websiteUi}$</span></h1>
                 <div>
                   <p style={{marginLeft:'10%', marginTop: '0', marginBottom: '5px', textAlign: 'left'}}><FaCheck color='var(--primary-light)' style={{marginRight: '7.5px'}}/>SVG Given</p>
                   <p style={{marginLeft:'10%', marginTop: '0', marginBottom: '5px', textAlign: 'left'}}><FaCheck color='var(--primary-light)' style={{marginRight: '7.5px'}}/>Transparency Given</p>
@@ -156,7 +157,7 @@ function GraphicsPage() {
               
               <div className='websites-pricing-header-tier-normal'>
                 <h1 className='websites-pricing-header-tier-heading' style={{marginBottom: '0', lineHeight: '0'}} ><span className="websites-pricing-header-tier-heading" style={{color: 'var(--primary-light)', WebkitBackgroundClip: 'text', backgroundClip: 'text'}}>App UI</span></h1>
-                <h1 className='websites-pricing-header-tier-heading-price' style={{textAlign: 'center',marginBottom: '2rem'}}><span className="websites-pricing-header-tier-heading-price" style={{color: 'white', opacity:'0.8', WebkitBackgroundClip: 'text', backgroundClip: 'text', marginTop: '0'}}>39.99$</span></h1>
+                <h1 className='websites-pricing-header-tier-heading-price' style={{textAlign: 'center',marginBottom: '2rem'}}><span className="websites-pricing-header-tier-heading-price" style={{color: 'white', opacity:'0.8', WebkitBackgroundClip: 'text', backgroundClip: 'text', marginTop: '0'}}>{graphicsPrices.applicationUi}$</span></h1>
                 <div>
                   <p style={{marginLeft:'10%', marginTop: '0', marginBottom: '5px', textAlign: 'left'}}><FaCheck color='var(--primary-light)' style={{marginRight: '7.5px'}}/>SVG Given</p>
                   <p style={{marginLeft:'10%', marginTop: '0', marginBottom: '5px', textAlign: 'left'}}><FaCheck color='var(--primary-light)' style={{marginRight: '7.5px'}}/>Transparency Given</p>
@@ -177,7 +178,7 @@ function GraphicsPage() {
 
               <div className='websites-pricing-header-tier-normal'>
                 <h1 className='websites-pricing-header-tier-heading' style={{marginBottom: '0', lineHeight: '0'}} ><span className="websites-pricing-header-tier-heading" style={{color: 'var(--primary-light)', WebkitBackgroundClip: 'text', backgroundClip: 'text'}}>Landing Page</span></h1>
-                <h1 className='websites-pricing-header-tier-heading-price' style={{textAlign: 'center',marginBottom: '2rem'}}><span className="websites-pricing-header-tier-heading-price" style={{color: 'white', opacity:'0.8', WebkitBackgroundClip: 'text', backgroundClip: 'text', marginTop: '0'}}>14.99$</span></h1>
+                <h1 className='websites-pricing-header-tier-heading-price' style={{textAlign: 'center',marginBottom: '2rem'}}><span className="websites-pricing-header-tier-heading-price" style={{color: 'white', opacity:'0.8', WebkitBackgroundClip: 'text', backgroundClip: 'text', marginTop: '0'}}>{graphicsPrices.landingPageDesign}$</span></h1>
                 <div>
                   <p style={{marginLeft:'10%', marginTop: '0', marginBottom: '5px', textAlign: 'left'}}><FaCheck color='var(--primary-light)' style={{marginRight: '7.5px'}}/>SVG Given</p>
                   <p style={{marginLeft:'10%', marginTop: '0', marginBottom: '5px', textAlign: 'left'}}><FaCheck color='var(--primary-light)' style={{marginRight: '7.5px'}}/>Transparency Given</p>
@@ -198,7 +199,7 @@ function GraphicsPage() {
 
               <div className='websites-pricing-header-tier-normal'>
                 <h1 className='websites-pricing-header-tier-heading' style={{marginBottom: '0', lineHeight: '0'}} ><span className="websites-pricing-header-tier-heading" style={{color: 'var(--primary-light)', WebkitBackgroundClip: 'text', backgroundClip: 'text'}}>Post Design</span></h1>
-                <h1 className='websites-pricing-header-tier-heading-price' style={{textAlign: 'center',marginBottom: '2rem'}}><span className="websites-pricing-header-tier-heading-price" style={{color: 'white', opacity:'0.8', WebkitBackgroundClip: 'text', backgroundClip: 'text', marginTop: '0'}}>0.99$ - 4.99$</span></h1>
+                <h1 className='websites-pricing-header-tier-heading-price' style={{textAlign: 'center',marginBottom: '2rem'}}><span className="websites-pricing-header-tier-heading-price" style={{color: 'white', opacity:'0.8', WebkitBackgroundClip: 'text', backgroundClip: 'text', marginTop: '0'}}>{graphicsPrices.postDesign}$ - {graphicsPrices.postDesignMax}$</span></h1>
                 <div>
                   <p style={{marginLeft:'10%', marginTop: '0', marginBottom: '5px', textAlign: 'left'}}><FaCheck color='var(--primary-light)' style={{marginRight: '7.5px'}}/>SVG Given</p>
                   <p style={{marginLeft:'10%', marginTop: '0', marginBottom: '5px', textAlign: 'left'}}><FaCheck color='var(--primary-light)' style={{marginRight: '7.5px'}}/>Transparency Given</p>
@@ -223,7 +224,7 @@ function GraphicsPage() {
               
               <div className='websites-pricing-header-tier-normal'>
                 <h1 className='websites-pricing-header-tier-heading' style={{marginBottom: '0', lineHeight: '0'}} ><span className="websites-pricing-header-tier-heading" style={{color: 'var(--primary-light)', WebkitBackgroundClip: 'text', backgroundClip: 'text'}}>Image Edit</span></h1>
-                <h1 className='websites-pricing-header-tier-heading-price' style={{textAlign: 'center',marginBottom: '2rem'}}><span className="websites-pricing-header-tier-heading-price" style={{color: 'white', opacity:'0.8', WebkitBackgroundClip: 'text', backgroundClip: 'text', marginTop: '0'}}>4.99$</span></h1>
+                <h1 className='websites-pricing-header-tier-heading-price' style={{textAlign: 'center',marginBottom: '2rem'}}><span className="websites-pricing-header-tier-heading-price" style={{color: 'white', opacity:'0.8', WebkitBackgroundClip: 'text', backgroundClip: 'text', marginTop: '0'}}>{graphicsPrices.imageEdit}$</span></h1>
                 <div>
                   <p style={{marginLeft:'10%', marginTop: '0', marginBottom: '5px', textAlign: 'left'}}><FaCheck color='var(--primary-light)' style={{marginRight: '7.5px'}}/>SVG Given</p>
                   <p style={{marginLeft:'10%', marginTop: '0', marginBottom: '5px', textAlign: 'left'}}><FaCheck color='var(--primary-light)' style={{marginRight: '7.5px'}}/>Transparency Given</p>
@@ -244,7 +245,7 @@ function GraphicsPage() {
 
               <div className='websites-pricing-header-tier-normal'>
                 <h1 className='websites-pricing-header-tier-heading' style={{marginBottom: '0', lineHeight: '0'}} ><span className="websites-pricing-header-tier-heading" style={{color: 'var(--primary-light)', WebkitBackgroundClip: 'text', backgroundClip: 'text'}}>Poster Design</span></h1>
-                <h1 className='websites-pricing-header-tier-heading-price' style={{textAlign: 'center',marginBottom: '2rem'}}><span className="websites-pricing-header-tier-heading-price" style={{color: 'white', opacity:'0.8', WebkitBackgroundClip: 'text', backgroundClip: 'text', marginTop: '0'}}>9.99$</span></h1>
+                <h1 className='websites-pricing-header-tier-heading-price' style={{textAlign: 'center',marginBottom: '2rem'}}><span className="websites-pricing-header-tier-heading-price" style={{color: 'white', opacity:'0.8', WebkitBackgroundClip: 'text', backgroundClip: 'text', marginTop: '0'}}>{graphicsPrices.posterDesign}$</span></h1>
                 <div>
                   <p style={{marginLeft:'10%', marginTop: '0', marginBottom: '5px', textAlign: 'left'}}><FaCheck color='var(--primary-light)' style={{marginRight: '7.5px'}}/>SVG Given</p>
                   <p style={{marginLeft:'10%', marginTop: '0', marginBottom: '5px', textAlign: 'left'}}><FaCheck color='var(--primary-light)' style={{marginRight: '7.5px'}}/>Transparency Given</p>
@@ -265,7 +266,7 @@ function GraphicsPage() {
 
               <div className='websites-pricing-header-tier-normal'>
                 <h1 className='websites-pricing-header-tier-heading' style={{marginBottom: '0', lineHeight: '0'}} ><span className="websites-pricing-header-tier-heading" style={{color: 'var(--primary-light)', WebkitBackgroundClip: 'text', backgroundClip: 'text'}}>Presentation</span></h1>
-                <h1 className='websites-pricing-header-tier-heading-price' style={{textAlign: 'center',marginBottom: '2rem'}}><span className="websites-pricing-header-tier-heading-price" style={{color: 'white', opacity:'0.8', WebkitBackgroundClip: 'text', backgroundClip: 'text', marginTop: '0'}}>9.99$</span></h1>
+                <h1 className='websites-pricing-header-tier-heading-price' style={{textAlign: 'center',marginBottom: '2rem'}}><span className="websites-pricing-header-tier-heading-price" style={{color: 'white', opacity:'0.8', WebkitBackgroundClip: 'text', backgroundClip: 'text', marginTop: '0'}}>{graphicsPrices.presentationDesign}$</span></h1>
                 <div>
                   <p style={{marginLeft:'10%', marginTop: '0', marginBottom: '5px', textAlign: 'left'}}><FaCheck color='var(--primary-light)' style={{marginRight: '7.5px'}}/>SVG Given</p>
                   <p style={{marginLeft:'10%', marginTop: '0', marginBottom: '5px', textAlign: 'left'}}><FaCheck color='var(--primary-light)' style={{marginRight: '7.5px'}}/>Transparency Given</p>
@@ -290,7 +291,7 @@ function GraphicsPage() {
               
               <div className='websites-pricing-header-tier-normal'>
                 <h1 className='websites-pricing-header-tier-heading' style={{marginBottom: '0', lineHeight: '0'}} ><span className="websites-pricing-header-tier-heading" style={{color: 'var(--primary-light)', WebkitBackgroundClip: 'text', backgroundClip: 'text'}}>Menu Design</span></h1>
-                <h1 className='websites-pricing-header-tier-heading-price' style={{textAlign: 'center',marginBottom: '2rem'}}><span className="websites-pricing-header-tier-heading-price" style={{color: 'white', opacity:'0.8', WebkitBackgroundClip: 'text', backgroundClip: 'text', marginTop: '0'}}>14.99$</span></h1>
+                <h1 className='websites-pricing-header-tier-heading-price' style={{textAlign: 'center',marginBottom: '2rem'}}><span className="websites-pricing-header-tier-heading-price" style={{color: 'white', opacity:'0.8', WebkitBackgroundClip: 'text', backgroundClip: 'text', marginTop: '0'}}>{graphicsPrices.menuDesign}$</span></h1>
                 <div>
                   <p style={{marginLeft:'10%', marginTop: '0', marginBottom: '5px', textAlign: 'left'}}><FaCheck color='var(--primary-light)' style={{marginRight: '7.5px'}}/>SVG Given</p>
                   <p style={{marginLeft:'10%', marginTop: '0', marginBottom: '5px', textAlign: 'left'}}><FaCheck color='var(--primary-light)' style={{marginRight: '7.5px'}}/>Transparency Given</p>
@@ -311,7 +312,7 @@ function GraphicsPage() {
 
               <div className='websites-pricing-header-tier-normal'>
                 <h1 className='websites-pricing-header-tier-heading' style={{marginBottom: '0', lineHeight: '0'}} ><span className="websites-pricing-header-tier-heading" style={{color: 'var(--primary-light)', WebkitBackgroundClip: 'text', backgroundClip: 'text'}}>Invite Design</span></h1>
-                <h1 className='websites-pricing-header-tier-heading-price' style={{textAlign: 'center',marginBottom: '2rem'}}><span className="websites-pricing-header-tier-heading-price" style={{color: 'white', opacity:'0.8', WebkitBackgroundClip: 'text', backgroundClip: 'text', marginTop: '0'}}>9.99$</span></h1>
+                <h1 className='websites-pricing-header-tier-heading-price' style={{textAlign: 'center',marginBottom: '2rem'}}><span className="websites-pricing-header-tier-heading-price" style={{color: 'white', opacity:'0.8', WebkitBackgroundClip: 'text', backgroundClip: 'text', marginTop: '0'}}>{graphicsPrices.inviteDesign}$</span></h1>
                 <div>
                   <p style={{marginLeft:'10%', marginTop: '0', marginBottom: '5px', textAlign: 'left'}}><FaCheck color='var(--primary-light)' style={{marginRight: '7.5px'}}/>SVG Given</p>
                   <p style={{marginLeft:'10%', marginTop: '0', marginBottom: '5px', textAlign: 'left'}}><FaCheck color='var(--primary-light)' style={{marginRight: '7.5px'}}/>Transparency Given</p>
@@ -332,7 +333,7 @@ function GraphicsPage() {
 
               <div className='websites-pricing-header-tier-normal'>
                 <h1 className='websites-pricing-header-tier-heading' style={{marginBottom: '0', lineHeight: '0'}} ><span className="websites-pricing-header-tier-heading" style={{color: 'var(--primary-light)', WebkitBackgroundClip: 'text', backgroundClip: 'text'}}>Resume</span></h1>
-                <h1 className='websites-pricing-header-tier-heading-price' style={{textAlign: 'center',marginBottom: '2rem'}}><span className="websites-pricing-header-tier-heading-price" style={{color: 'white', opacity:'0.8', WebkitBackgroundClip: 'text', backgroundClip: 'text', marginTop: '0'}}>9.99$</span></h1>
+                <h1 className='websites-pricing-header-tier-heading-price' style={{textAlign: 'center',marginBottom: '2rem'}}><span className="websites-pricing-header-tier-heading-price" style={{color: 'white', opacity:'0.8', WebkitBackgroundClip: 'text', backgroundClip: 'text', marginTop: '0'}}>{graphicsPrices.resumeDesign}$</span></h1>
                 <div>
                   <p style={{marginLeft:'10%', marginTop: '0', marginBottom: '5px', textAlign: 'left'}}><FaCheck color='var(--primary-light)' style={{marginRight: '7.5px'}}/>SVG Given</p>
                   <p style={{marginLeft:'10%', marginTop: '0', marginBottom: '5px', textAlign: 'left'}}><FaCheck color='var(--primary-light)' style={{marginRight: '7.5px'}}/>Transparency Given</p>
