@@ -5,6 +5,7 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 import { FaSortDown, FaSortUp } from 'react-icons/fa';
 import { BsFillLightningChargeFill } from 'react-icons/bs'
 import Popup from 'reactjs-popup';
+import { BsFillTelephoneFill } from 'react-icons/bs'
 import FadeIn from 'react-fade-in/lib/FadeIn';
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -120,6 +121,16 @@ function NavBar() {
                     marginLeft: '20px',
                   }} to="/grabpanel">
                   <button className='home-header-button-fill'>GrabPanel</button>
+                </Link>  
+                <Link style={{
+                  width: '100%',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    justifySelf: 'center',
+                    alignSelf: 'center',
+                    marginLeft: '20px',
+                  }} to="/grabpanel">
+                  <button className='home-header-button-fill'><BsFillTelephoneFill color='white'/></button>
                 </Link>  
               </ul>
             </nav>

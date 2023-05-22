@@ -1,6 +1,7 @@
 import React from 'react'
 import './about.css'
 import {Link} from 'react-router-dom'
+import { BsFillTelephoneFill } from 'react-icons/bs'
 function AboutPage() {
   return (
     <div className='about-header'>
@@ -15,12 +16,12 @@ function AboutPage() {
           We work day and night to give you the product we know you deserve!
           </p>
           <div className='home-header-buttons' style={{width: '100%'}}>
-            <Link className='link' to="/grabpanel">
+            <Link className='link-about' to="/grabpanel">
               <button className='home-header-button-fill'>Go to Panel</button>
             </Link>  
-            <Link className='link' to="/webhosting">
+            <Link className='link-about' to="/webhosting">
               <button className='home-header-button-outline'>Host an Application</button>
-            </Link>        
+            </Link>
           </div>
         </div>
       </div>
