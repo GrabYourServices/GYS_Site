@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './grabpanel.css'
-import  from 'react-fade-in'
 function GrabPanelPage() {
   React.useEffect(() => {
     window.scrollTo(0, 0)

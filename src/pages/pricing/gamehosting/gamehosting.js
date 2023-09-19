@@ -1,6 +1,8 @@
+import { Link } from 'react-router-dom'
 import React from 'react'
 import { FaCheck } from 'react-icons/fa'
-import ContactPage from '../../home/contact/contact'rtgame/supportgame'
+import ContactPage from '../../home/contact/contact'
+import SupportGamePage from '../../home/supportgame/supportgame'
 import { gameHostingPrices } from '../../../data/prices'
 function GameHostingPage() {
   React.useEffect(() => {
@@ -8,7 +10,7 @@ function GameHostingPage() {
   }, [])
   return (
   <>
-    <>
+    <FadeIn>
       <div className='websites-pricing-container'>
         <div className='websites-pricing-header'>
           <div className='websites-pricing-header-text'>
@@ -119,7 +121,7 @@ function GameHostingPage() {
           </p>
         </div>
       </div>
-    </>
+    </FadeIn>
   </>
   )
 }

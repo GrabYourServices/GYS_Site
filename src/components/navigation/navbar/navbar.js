@@ -6,6 +6,7 @@ import { FaSortDown, FaSortUp } from 'react-icons/fa';
 import { BsFillLightningChargeFill } from 'react-icons/bs'
 import Popup from 'reactjs-popup';
 import { BsFillTelephoneFill } from 'react-icons/bs'
+function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
 
   function toggleMenu() {

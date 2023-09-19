@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import React from 'react'
 import { FaCheck } from 'react-icons/fa'
 import ContactPage from '../../home/contact/contact'
