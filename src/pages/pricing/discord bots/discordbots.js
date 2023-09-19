@@ -1,3 +1,4 @@
+import { discordBotPrices } from '../../../data/prices'
 import { Link } from 'react-router-dom'
 import React from 'react'
 import './discordbots.css'
@@ -5,7 +6,7 @@ import { FaCheck } from 'react-icons/fa'
 import ContactPage from '../../home/contact/contact'
 function DiscordBotsPage() {
   React.useEffect(() => {
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0) 
   }, [])
   return (
   <>

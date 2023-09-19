@@ -10,7 +10,7 @@ function GameHostingPage() {
   }, [])
   return (
   <>
-    <FadeIn>
+    <>
       <div className='websites-pricing-container'>
         <div className='websites-pricing-header'>
           <div className='websites-pricing-header-text'>
@@ -121,7 +121,7 @@ function GameHostingPage() {
           </p>
         </div>
       </div>
-    </FadeIn>
+    </>
   </>
   )
 }
