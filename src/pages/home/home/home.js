@@ -86,7 +86,7 @@ function HomePage() {
         <p style={{
           padding: '20px'
         }}>
-          Copyright CC 2022. Tel : +92 33 GRAB YOUR (+92 33 4722 9687). Unregistered Business.
+          Copyright CC 2022. Tel : +92 33 GRAB YOUR (+92 33 4722 9687). Unregistered Business. Rabia Sohail
         </p>
       </div>
     </div>
