@@ -2,7 +2,6 @@ import React, {useEffect} from 'react'
 import './websites.css'
 import { FaCheck } from 'react-icons/fa'
 import ContactPage from '../../home/contact/contact'
-import FadeIn from 'react-fade-in/lib/FadeIn'
 import { websitePrices } from '../../../data/prices'
 function WebsitesPage() {
   React.useEffect(() => {
@@ -10,7 +9,7 @@ function WebsitesPage() {
   }, [])
   return (
   <>
-    <FadeIn>
+    <>
       <div className='websites-pricing-container'>
         <div className='websites-pricing-header'>
           <div className='websites-pricing-header-text'>
@@ -112,7 +111,7 @@ function WebsitesPage() {
           </p>
         </div>
       </div>
-    </FadeIn>
+    </>
   </>
   )
 }

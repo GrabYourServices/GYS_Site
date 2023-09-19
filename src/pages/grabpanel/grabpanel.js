@@ -1,13 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './grabpanel.css'
-import FadeIn from 'react-fade-in'
+import  from 'react-fade-in'
 function GrabPanelPage() {
   React.useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
   return (
-    <FadeIn>
+    <>
       <div className='grabpanel-container'>
         <div className='grabpanel-texts'>
           <h1 className='grabpanel-heading'>
@@ -23,7 +23,7 @@ function GrabPanelPage() {
           </Link>
         </div>
       </div>
-    </FadeIn>
+    </>
   )
 }
 

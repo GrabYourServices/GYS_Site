@@ -2,15 +2,12 @@ import React from 'react'
 import './discordbots.css'
 import { FaCheck } from 'react-icons/fa'
 import ContactPage from '../../home/contact/contact'
-import FadeIn from 'react-fade-in/lib/FadeIn'
-import { discordBotPrices } from '../../../data/prices'
-function DiscordBotsPage() {
   React.useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
   return (
   <>
-    <FadeIn>
+    <>
       <div className='websites-pricing-container'>
         <div className='websites-pricing-header'>
           <div className='websites-pricing-header-text'>
@@ -109,7 +106,7 @@ function DiscordBotsPage() {
           </p>
         </div>
       </div>
-    </FadeIn>
+    </>
   </>
   )
 }

@@ -1,8 +1,6 @@
 import React from 'react'
 import { FaCheck } from 'react-icons/fa'
 import ContactPage from '../../home/contact/contact'
-import FadeIn from 'react-fade-in/lib/FadeIn'
-import { Link } from 'react-router-dom'
 import './apphosting.css'
 import SupportPage from '../../home/support/support'
 import { appHostingPrices } from '../../../data/prices'
@@ -12,7 +10,7 @@ function AppHostingPage() {
   }, [])
   return (
   <>
-    <FadeIn>
+    <>
       <div className='websites-pricing-container'>
         <div className='websites-pricing-header'>
           <div className='websites-pricing-header-text'>
@@ -121,7 +119,7 @@ function AppHostingPage() {
           </p>
         </div>
       </div>
-    </FadeIn>
+    </>
   </>
   )
 }

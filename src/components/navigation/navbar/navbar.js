@@ -6,8 +6,6 @@ import { FaSortDown, FaSortUp } from 'react-icons/fa';
 import { BsFillLightningChargeFill } from 'react-icons/bs'
 import Popup from 'reactjs-popup';
 import { BsFillTelephoneFill } from 'react-icons/bs'
-import FadeIn from 'react-fade-in/lib/FadeIn';
-function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
 
   function toggleMenu() {
@@ -51,7 +49,7 @@ function NavBar() {
     background: 'var(--secondary)',
   };
   return (
-    <FadeIn>
+    <>
       <div style={{display:'flex', flexDirection: 'column'}}>
         <div className={isScrolled ? "nav-container scrolled" : "nav-container "}>
           <div className='nav-logo'>
@@ -79,7 +77,7 @@ function NavBar() {
                 className='modal-popup-nav'
                 closeOnDocumentClick
                 {...{ contentStyle, overlayStyle, arrowStyle }} >
-                  <FadeIn>
+                  <>
                     <li className='modal-li'>
                       <Link to='/websites'>
                         <p className='modal-a'>Websites</p>
@@ -105,7 +103,7 @@ function NavBar() {
                         <p className='modal-a'>Graphics</p>
                       </Link>
                     </li>
-                  </FadeIn>
+                  </>
                 </Popup>
                 <li>
                   <Link to='/'>
@@ -137,7 +135,7 @@ function NavBar() {
             <GiHamburgerMenu color="#8271cb" onClick={toggleMenu} size={32} className='nav-icon' />
             <nav className={`nav-hamburger-menu ${isOpen ? "open" : ""}`}>
               <ul className="hamburger-menu-list" onClick={toggleMenu}>
-                  <FadeIn>
+                  <>
                     <li className="hamburger-menu-item">
                       <Link to='/'>
                         <p className='modal-a'>Home</p>
@@ -173,7 +171,7 @@ function NavBar() {
                         <p className='modal-a'>GrabPanel</p>
                       </Link>
                     </li>
-                  </FadeIn>
+                  </>
                 <button onClick={toggleMenu} style={{
                   backgroundColor:'white',
                   width: '100%',
@@ -190,7 +188,7 @@ function NavBar() {
           </div>
         </div>
       </div>
-    </FadeIn>
+    </>
   )
 }
 

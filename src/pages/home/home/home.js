@@ -12,7 +12,6 @@ import WorkPage from '../work/work'
 import PricesPage from '../prices/prices'
 import ContactPage from '../contact/contact'
 import TeamPage from '../team/team'
-import FadeIn from 'react-fade-in'
 import weird from '../../../imgs/assets/animals/weird.png'
 import rabbit from '../../../imgs/assets/animals/rabbit.png'
 import SupportPage from '../support/support'
@@ -25,7 +24,7 @@ function HomePage() {
   return (
     <>
     <div className='home-container'>
-      <FadeIn>
+      <>
         <div className='home-header-root'>
           <div className='home-header'>
             <div className='home-header-texts'>
@@ -72,7 +71,7 @@ function HomePage() {
           <TeamPage/>
         */}
         <ContactPage/>
-      </FadeIn>
+      </>
       <div style={{
         width: '100%',
         display: 'flex',

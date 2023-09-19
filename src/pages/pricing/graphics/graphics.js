@@ -2,8 +2,6 @@ import React from 'react'
 import './graphics.css'
 import { FaCheck } from 'react-icons/fa'
 import ContactPage from '../../home/contact/contact'
-import FadeIn from 'react-fade-in/lib/FadeIn'
-import { Link } from 'react-router-dom'
 import { graphicsPrices } from '../../../data/prices'
 function GraphicsPage() {
   React.useEffect(() => {
@@ -11,7 +9,7 @@ function GraphicsPage() {
   }, [])
   return (
   <>
-    <FadeIn>
+    <>
       <div className='websites-pricing-container'>
         <div className='websites-pricing-header'>
           <div className='websites-pricing-header-text'>
@@ -372,7 +370,7 @@ function GraphicsPage() {
           </p>
         </div>
       </div>
-    </FadeIn>
+    </>
   </>
   )
 }
