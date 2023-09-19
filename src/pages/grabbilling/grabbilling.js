@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './grabbilling.css'
-import  from 'react-fade-in'
 function GrabBillingPage() {
   React.useEffect(() => {
     window.scrollTo(0, 0)
