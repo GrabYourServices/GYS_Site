@@ -1,48 +1,34 @@
 {
-  "name": "grabyourservices",
+  "name": "gys_site_2",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "@paypal/react-paypal-js": "^7.8.3",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "es6-tween": "^5.5.11",
-    "perlin-noise": "^0.0.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-game-icons": "^1.1.0",
-    "react-globe": "^5.0.2",
-    "react-icons": "^4.8.0",
-    "react-router-dom": "^6.11.0",
-    "react-scripts": "5.0.1",
-    "reactjs-popup": "^2.0.5",
-    "three": "^0.121.1",
-    "tippy.js": "^6.3.7",
-    "web-vitals": "^2.1.4"
-  },
   "scripts": {
-    "start": "DISABLE_ESLINT_PLUGIN=true react-scripts start",
-    "build": "DISABLE_ESLINT_PLUGIN=true react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "dependencies": {
+    "@headlessui/react": "^1.7.17",
+    "next": "14.0.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^4.12.0",
+    "react-simple-typewriter": "^5.0.1",
+    "react-tsparticles": "^2.12.2",
+    "tsparticles-slim": "^2.12.0",
+    "typewriter-effect": "^2.21.0"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "daisyui": "^4.4.24",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
   }
 }
