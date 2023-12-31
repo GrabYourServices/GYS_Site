@@ -17,6 +17,7 @@ const config: Config = {
         white: '#FFFFFF',
         black: '#000000',
         transBlack: 'rgba(0,0,0,0.9)',
+        transBlackV: 'rgb(0,0,0)',
         transGrey: 'rgba(20,20,20,0.6)',
         transYellow: 'rgba(255, 222, 89, 0.95)'
       },

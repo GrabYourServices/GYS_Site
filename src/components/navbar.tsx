@@ -50,7 +50,7 @@ const NavBar: React.FC<NavbarProps> = ({ scrollToSection }) => {
           <h1 className='mx-4 my-4 text-md font-mainFont transition duration-500 hover:text-yellow cursor-pointer' onClick={() => scrollToSection('servicesPage')}>Services</h1>
           <h1 className='mx-4 my-4 text-md font-mainFont transition duration-500 hover:text-yellow cursor-pointer' onClick={() => scrollToSection('workPage')}>Work</h1>
           <h1 className='mx-4 my-4 text-md font-mainFont transition duration-500 hover:text-yellow cursor-pointer' onClick={() => scrollToSection('pricingPage')}>Pricing</h1>
-          <h1 className='mx-4 my-4 text-md font-mainFont transition duration-500 hover:text-yellow cursor-pointer' onClick={() => scrollToSection('servicesPage')}>Contact</h1>
+          <h1 className='mx-4 my-4 text-md font-mainFont transition duration-500 hover:text-yellow cursor-pointer' onClick={() => scrollToSection('contactPage')}>Contact</h1>
         </div>
       </div>
 
@@ -75,7 +75,7 @@ const NavBar: React.FC<NavbarProps> = ({ scrollToSection }) => {
                 <li><p className='transition duration-500 hover:opacity-50 cursor-pointer mt-2' onClick={() => {scrollToSection('servicesPage'); hamburgerClick(false)}}>Services</p></li>
                 <li><p className='transition duration-500 hover:opacity-50 cursor-pointer mt-2' onClick={() => {scrollToSection('workPage'); hamburgerClick(false)}}>Work</p></li>
                 <li><p className='transition duration-500 hover:opacity-50 cursor-pointer mt-2' onClick={() => {scrollToSection('pricingPage'); hamburgerClick(false)}}>Pricing</p></li>
-                <li><p className='transition duration-500 hover:opacity-50 cursor-pointer mt-2' onClick={() => {scrollToSection('servicesPage'); hamburgerClick(false)}}>Contact</p></li>
+                <li><p className='transition duration-500 hover:opacity-50 cursor-pointer mt-2' onClick={() => {scrollToSection('contactPage'); hamburgerClick(false)}}>Contact</p></li>
                 <li className='flex flex-row mt-2'>
                   <h1 className='mx-2 my-4 text-xl font-mainFont'><BiLogoInstagram className='transition duration-500 hover:scale-110 cursor-pointer' onClick={() => {window.open('https://instagram.com/grabyourservices')}} size={32}/></h1>
                   <h1 className='mx-2 my-4 text-xl font-mainFont'><MdOutlineEmail className='transition duration-500 hover:scale-110 cursor-pointer' onClick={() => {window.open('mailto:info@grabyourservices.com')}} size={32}/></h1>
