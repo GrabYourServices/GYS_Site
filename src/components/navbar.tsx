@@ -1,10 +1,10 @@
 
 import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
-import Logo from '../assets/imgs/logo.png';
 import { BiLogoInstagram, BiLogoDiscordAlt } from 'react-icons/bi';
 import { MdOutlineEmail } from "react-icons/md";
 import { RxHamburgerMenu, RxCross1  } from "react-icons/rx";
+import Logo from '../assets/imgs/logo.png'
 import '../app/globals.css';
 
 interface NavbarProps {
@@ -44,7 +44,7 @@ const NavBar: React.FC<NavbarProps> = ({ scrollToSection }) => {
     <div className={`transition duration-500 flex items-center justify-between z-50 rounded-lg border-2 px-4 py-2 w-full mx-16 lg:mx-8 ${isScrolled ? 'shadow-xl bg-transBlack border-2 border-yellow rounded-lg px-4' : 'border-black'}`}>
       {/* Left-aligned container */}
       <div className='flex text-white items-center rounded'>
-        <Image src={Logo} alt='Logo' width={80}/>
+        <img src={Logo.src} height={256} alt='Logo' width={80}/>
         <div className='flex flex-row items-center lg:hidden'>
           <h1 className='mx-4 ml-8 my-4 text-md text-white font-mainFont transition duration-500 hover:text-yellow cursor-pointer' onClick={() => scrollToSection('homePage')}>Home</h1>
           <h1 className='mx-4 my-4 text-md font-mainFont transition duration-500 hover:text-yellow cursor-pointer' onClick={() => scrollToSection('servicesPage')}>Services</h1>
