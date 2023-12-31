@@ -33,7 +33,7 @@ const items = [
   },
   {
     title: 'Marketing',
-    content: 'Social Media Management| Content Creation | Email Marketing| Analytics and Reporting',
+    content: 'Social Media Management | Content Creation | Email Marketing | Analytics and Reporting',
   },
   {
     title: 'Consultation & Training',
