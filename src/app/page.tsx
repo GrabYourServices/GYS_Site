@@ -308,7 +308,7 @@ Ditch the hassle of sluggish and pricey agencies; we're your shortcut to top-not
                   <div className="flex flex-col justify-center items-center mx-8 my-8 w-full">
                     <h1 className="text-4xl text-yellow mt-4">Stellar</h1>
                     <div className="flex mt-6 flex-col justify-center items-center px-8 text-center">
-                      <p className="text-xl">Starting at <span className="text-yellow">$299</span>/mo</p>
+                      <p className="text-xl">Starting at <span className="text-yellow">$499</span>/mo</p>
                       <p className="text-lg">Best for running and stable businesses.</p>
                     </div>
                     <div className="flex flex-col justify-center items-center mt-5 w-full">
