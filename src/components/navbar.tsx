@@ -67,9 +67,9 @@ const NavBar: React.FC<NavbarProps> = ({ scrollToSection }) => {
         <div className='flex flex-col p-8 justify-center items-center'>
           <div className='fixed bottom-0 flex justify-center items-center h-screen w-full'>
             <div className='flex w-full top-0 right-0 fixed mr-8 mt-8 flex-row justify-end items-end'>
-              <RxCross1 size={32} color='#ffffff' onClick={() => {hamburgerClick(false)}} className='transition duration-500 hover:opacity-75 cursor-pointer'/>
+              <RxCross1 size={32} color='#000000' onClick={() => {hamburgerClick(false)}} className='transition duration-500 hover:opacity-75 cursor-pointer'/>
             </div>
-            <div className='flex flex-col justify-center items-center font-mainFont text-2xl text-white text-center'>
+            <div className='flex flex-col justify-center items-center font-mainFont text-2xl text-black text-center'>
               <ul>
                 <li><p className='transition duration-500 hover:opacity-50 cursor-pointer mt-2' onClick={() => {scrollToSection('homePage'); hamburgerClick(false)}}>Home</p></li>
                 <li><p className='transition duration-500 hover:opacity-50 cursor-pointer mt-2' onClick={() => {scrollToSection('servicesPage'); hamburgerClick(false)}}>Services</p></li>

@@ -20,19 +20,19 @@ interface DropdownProps {
 }
 const items = [
   {
-    title: 'Branding Services',
+    title: 'Branding',
     content: 'Brand Strategy | Logo Design | Brand Identity Design | Brand Guidelines',
   },
   {
-    title: 'Graphic Design Services',
-    content: 'Print Collateral | Digital Graphics | Packaging Design | Infographics | Illustrations',
+    title: 'Graphics',
+    content: 'Digital Graphics | Packaging Design | Infographics',
   },
   {
-    title: 'Website Development Services',
+    title: 'Webware',
     content: 'Website Development | Responsive Design | Website Maintenance | Search Engine Optimization (SEO)',
   },
   {
-    title: 'Marketing Services',
+    title: 'Marketing',
     content: 'Social Media Management| Content Creation | Email Marketing| Analytics and Reporting',
   },
   {
@@ -206,7 +206,7 @@ export default function Home() {
       </div>
       <div className='flex justify-center text-white items-center w-full min-h-screen flex-row'>
         <div className="flex justify-start text-white items-start ml-20 w-1/2 lg:w-full lg:mx-8 min-h-full flex-col lg:text-center">
-          <span className="absolute lg:relative  font-bold text-5xl lg:text-3xl lg:font-normal">Introducing Your Marketing Ally - <span className="text-yellow">GYS</span>!</span>
+          <span className="absolute lg:relative text-5xl lg:text-3xl font-mainFont">Introducing Your Marketing Ally - <span className="text-yellow">GYS</span>!</span>
           <span className="lg:hidden relative font-bold text-5xl">&nbsp;</span>
           <p className=" font-mainFont text-lg mt-6">Meet GYS aka Grab Your Services, the go-to creative powerhouse for brands seeking exceptional design, branding, and website development. We're not just a service – we're your creative partner in the digital realm.
 <br/>
@@ -233,7 +233,7 @@ Ditch the hassle of sluggish and pricey agencies; we're your shortcut to top-not
         <div className='flex justify-start px-2 text-white items-center w-full min-h-full flex-col' style={{ position: "relative", zIndex: 1 }}>
           <div className="flex justify-center items-center flex-col mt-8 bg-transBlack p-14 shadow-xl h-full w-full md:p-8">
             <span className="font-mainFont text-center text-5xl lg:text-3xl">Remote<span className="text-yellow"> + </span>Marketing Agency<span className="text-yellow"> = </span><br/>More <span className="border-b-4 border-solid border-yellow">Success</span> Faster.</span>
-            <p className="text-lg mt-8 text-center lg:mt-4">Hey! Interested? Follow us on our <a className="text-yellow transition duration-500 hover:opacity-50" href="https://instagram.com/grabyourservices">Instagram</a> to keep up to date with the projects we do, or join our news letter below</p>
+            <p className="text-lg mt-8 text-center lg:mt-4">Hey there! Ready to dive into creativity? Follow us on  <a className="text-yellow transition duration-500 hover:opacity-50" href="https://instagram.com/grabyourservices">Instagram</a> for an exclusive peek into our projects or join our newsletter squad below for an artistic adventure straight to your inbox!</p>
             <div className="flex flex-row mt-8 w-96 lg:w-full lg:flex-col">
               <input className="bg-transBlack py-2 rounded-lg px-4 border-2 border-yellow mx-2 focus:outline-none transition duration-500 hover:opacity-75 hover:cursor-pointer focus:cursor-text focus:opacity-100 lg:px-4 lg:py-3 lg:w-full" placeholder="Email (Required)"/>
               <button className='flex flex-row justify-center items-center px-8 py-3 ml-2 bg-yellow text-black rounded-xl text-black align-middle duration-500 w-2/6 hover:scale-105 lg:px-4 lg:py-3 lg:mt-4 lg:w-full'>Subscribe</button>
@@ -262,8 +262,8 @@ Ditch the hassle of sluggish and pricey agencies; we're your shortcut to top-not
                         <li className="w-full flex flex-row justify-center items-center pb-4 border-b-2 border-b-white mt-4"><p className="text-yellow font-mainFont">Logo Design</p></li>
                         <li className="w-full flex flex-row justify-center items-center pb-4 border-b-2 border-b-white mt-4"><p className="text-yellow font-mainFont">Brand Identity Design</p></li>
                         <li className="w-full flex flex-row justify-center items-center pb-4 border-b-2 border-b-white mt-4"><p className="text-yellow font-mainFont">Digital Graphics</p></li>
-                        <li className="w-full flex flex-row justify-center items-center pb-4 border-b-2 border-b-white mt-4"><p className="text-yellow font-mainFont">Website Development & Maintenance(Non E-Commerce)</p></li>
                         <li className="w-full flex flex-row justify-center items-center pb-4 border-b-2 border-b-white mt-4"><p className="text-yellow font-mainFont">Social Media & Content Marketing</p></li>
+                        <li className="w-full flex flex-row justify-center items-center pb-4 border-b-2 border-b-white mt-4"><p className="text-base-100 font-mainFont">Website Development & Maintenance(Non E-Commerce)</p></li>
                         <li className="w-full flex flex-row justify-center items-center pb-4 border-b-2 border-b-white mt-4"><p className="text-base-100 font-mainFont">Analytics & Reporting</p></li>
                         <li className="w-full flex flex-row justify-center items-center pb-4 border-b-2 border-b-white mt-4"><p className="text-base-100 font-mainFont">Infographics & Illustrations</p></li>
                         <li className="w-full flex flex-row justify-center items-center pb-4 border-b-2 border-b-white mt-4"><p className="text-base-100 font-mainFont">SEO</p></li>
@@ -290,8 +290,8 @@ Ditch the hassle of sluggish and pricey agencies; we're your shortcut to top-not
                         <li className="w-full flex flex-row justify-center items-center pb-4 border-b-2 border-b-white mt-4"><p className="text-yellow font-mainFont">Logo Design</p></li>
                         <li className="w-full flex flex-row justify-center items-center pb-4 border-b-2 border-b-white mt-4"><p className="text-yellow font-mainFont">Brand Identity Design</p></li>
                         <li className="w-full flex flex-row justify-center items-center pb-4 border-b-2 border-b-white mt-4"><p className="text-yellow font-mainFont">Digital Graphics</p></li>
-                        <li className="w-full flex flex-row justify-center items-center pb-4 border-b-2 border-b-white mt-4"><p className="text-yellow font-mainFont">Website Development & Maintenance(Incl. E-Commerce)</p></li>
                         <li className="w-full flex flex-row justify-center items-center pb-4 border-b-2 border-b-white mt-4"><p className="text-yellow font-mainFont">Social Media & Content Marketing</p></li>
+                        <li className="w-full flex flex-row justify-center items-center pb-4 border-b-2 border-b-white mt-4"><p className="text-yellow font-mainFont">Website Development & Maintenance(Incl. E-Commerce)</p></li>
                         <li className="w-full flex flex-row justify-center items-center pb-4 border-b-2 border-b-white mt-4"><p className="text-yellow font-mainFont">Analytics & Reporting</p></li>
                         <li className="w-full flex flex-row justify-center items-center pb-4 border-b-2 border-b-white mt-4"><p className="text-yellow font-mainFont">Infographics & Illustrations</p></li>
                         <li className="w-full flex flex-row justify-center items-center pb-4 border-b-2 border-b-white mt-4"><p className="text-yellow font-mainFont">SEO</p></li>
@@ -317,8 +317,8 @@ Ditch the hassle of sluggish and pricey agencies; we're your shortcut to top-not
                         <li className="w-full flex flex-row justify-center items-center pb-4 border-b-2 border-b-white mt-4"><p className="text-yellow font-mainFont">Logo Design</p></li>
                         <li className="w-full flex flex-row justify-center items-center pb-4 border-b-2 border-b-white mt-4"><p className="text-yellow font-mainFont">Brand Identity Design</p></li>
                         <li className="w-full flex flex-row justify-center items-center pb-4 border-b-2 border-b-white mt-4"><p className="text-yellow font-mainFont">Digital Graphics</p></li>
-                        <li className="w-full flex flex-row justify-center items-center pb-4 border-b-2 border-b-white mt-4"><p className="text-yellow font-mainFont">Website Development & Maintenance(Non E-Commerce)</p></li>
                         <li className="w-full flex flex-row justify-center items-center pb-4 border-b-2 border-b-white mt-4"><p className="text-yellow font-mainFont">Social Media & Content Marketing</p></li>
+                        <li className="w-full flex flex-row justify-center items-center pb-4 border-b-2 border-b-white mt-4"><p className="text-yellow font-mainFont">Website Development & Maintenance(Non E-Commerce)</p></li>
                         <li className="w-full flex flex-row justify-center items-center pb-4 border-b-2 border-b-white mt-4"><p className="text-yellow font-mainFont">Analytics & Reporting</p></li>
                         <li className="w-full flex flex-row justify-center items-center pb-4 border-b-2 border-b-white mt-4"><p className="text-yellow font-mainFont">Infographics & Illustrations</p></li>
                         <li className="w-full flex flex-row justify-center items-center pb-4 border-b-2 border-b-white mt-4"><p className="text-base-100 font-mainFont">SEO</p></li>
@@ -337,8 +337,16 @@ Ditch the hassle of sluggish and pricey agencies; we're your shortcut to top-not
       <div className="min-h-screen flex justify-center items-center text-white flex-col">
         <h1 className='text-5xl text-center lg:text-4xl lg:mx-4'>Or, buy a <span className="text-yellow">Single</span> Product</h1>
         <button onClick={() => {scrollToSection('contactPage')}} className="w-96 lg:w-[calc(100%-4rem)] mx-8 bg-yellow text-black rounded-lg transition duration-500 hover:scale-110 py-3 mt-6">Get a Quote</button>
+        
+        <div className='flex justify-center h-full mt-20 px-2 text-white items-center w-full min-h-full flex-col' style={{ position: "relative", zIndex: 1 }}>
+          <div className="flex justify-center items-center flex-col mt-8 bg-transBlack shadow-xl h-full w-full md:p-8">
+            <span className="font-mainFont text-center text-xl text-yellow opacity-75 ">REMOTE-REACH</span>
+            <span className="font-mainFont text-center text-5xl lg:text-3xl mx-48 lg:mx-8">Anytime, anywhere, we transform your brand dreams into reality.</span>
+            <p className="text-lg mt-8 text-center lg:mt-4 mx-48 lg:mx-8">Connect now for a game-changing consultation or grab an instant quote via our sleek contact form. Let's redefine your brand success, no matter where you are!</p>
+          </div>
+        </div>
       </div>
-      <div ref={contactPage} id='contactPage' className="pt-6 min-h-screen flex justify-center items-start w-screen">
+      <div ref={contactPage} id='contactPage' className="min-h-screen flex justify-center items-start w-screen">
         <div className='flex justify-start px-2 text-white items-center w-full min-h-full flex-col w-full' style={{ position: "relative", zIndex: 1 }}>
           <div className="flex justify-center items-center flex-col mt-8 bg-transBlack p-14 shadow-xl h-full w-full md:p-8 w-full">
             <span className="font-mainFont text-center text-5xl lg:text-3xl mb-12">Get in<span className="text-yellow"> Touch</span>.</span>
@@ -421,9 +429,9 @@ Ditch the hassle of sluggish and pricey agencies; we're your shortcut to top-not
           </div>
         </div>
       </div>
-      <div className="w-screen mt-14 bg-black border-t-2 border-t-yellow py-14 flex justify-center items-center flex-col">
+      <div className="w-screen mt-14 bg-black py-14 flex justify-center items-center flex-col">
         <div className="w-full flex justify-center items-center flex-row lg:flex-col lg:px-8 lg:text-center">                
-          <img src={Logo.src} alt='Logo' height={256} width={256}/>
+          <img src={Logo.src} alt='Logo' height={200} width={200}/>
           <div className="flex flex-col justify-start items-start "> 
             <div className='flex flex-row items-start justify-start lg:hidden'>
               <h1 className='mr-2 my-4 text-md font-mainFont transition duration-500 hover:text-yellow cursor-pointer' onClick={() => scrollToSection('homePage')}>Home</h1>
@@ -432,11 +440,10 @@ Ditch the hassle of sluggish and pricey agencies; we're your shortcut to top-not
               <h1 className='mx-4 my-4 text-md font-mainFont transition duration-500 hover:text-yellow cursor-pointer' onClick={() => scrollToSection('pricingPage')}>Pricing</h1>
               <h1 className='mx-4 my-4 text-md font-mainFont transition duration-500 hover:text-yellow cursor-pointer' onClick={() => scrollToSection('contactPage')}>Contact</h1>
             </div>
-            <h1 className="text-md text-white">Made with ❤️ by <a href="https://ateebsohail.xyz/">Ateeb</a> @ Grab Your Services</h1>
-            <p>Illustration by <a href="https://icons8.com/illustrations/author/599244">Aleksey Chizhikov</a> from <a href="https://icons8.com/illustrations">Ouch!</a></p>
           </div>
         </div>
-        <h1 className="lg:mx-8 lg:text-center text-xl mt-4 text-white">Copyright 2023 - GrabYourServices. All Rights Reserved</h1>
+        <h1 className="lg:mx-8 lg:text-center text-xl mt-4 text-white text-center">Copyright 2023 - GrabYourServices.<br/> All Rights Reserved</h1>
+            <p>Illustration by <a href="https://icons8.com/illustrations/author/599244">Aleksey Chizhikov</a> from <a href="https://icons8.com/illustrations">Ouch!</a></p>
       </div>
     </div>
   );
