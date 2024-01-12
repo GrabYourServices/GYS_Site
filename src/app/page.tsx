@@ -343,6 +343,7 @@ Ditch the hassle of sluggish and pricey agencies; we're your shortcut to top-not
             <span className="font-mainFont text-center text-xl text-yellow opacity-75 ">REMOTE-REACH</span>
             <span className="font-mainFont text-center text-5xl lg:text-3xl mx-48 lg:mx-8">Anytime, anywhere, we transform your brand dreams into reality.</span>
             <p className="text-lg mt-8 text-center lg:mt-4 mx-48 lg:mx-8">Connect now for a game-changing consultation or grab an instant quote via our sleek contact form. Let's redefine your brand success, no matter where you are!</p>
+            <button onClick={() => {window.open('https://calendly.com/grabyourservices/book-a-free-consultation-call-with-gys')}} className="w-96 lg:w-[calc(100%-4rem)] mx-8 bg-yellow text-black rounded-lg transition duration-500 hover:scale-110 py-3 mt-6">Request a Consultation</button>
           </div>
         </div>
       </div>
@@ -443,7 +444,7 @@ Ditch the hassle of sluggish and pricey agencies; we're your shortcut to top-not
           </div>
         </div>
         <h1 className="lg:mx-8 lg:text-center text-xl mt-4 text-white text-center">Copyright 2023 - GrabYourServices.<br/> All Rights Reserved</h1>
-            <p>Illustration by <a href="https://icons8.com/illustrations/author/599244">Aleksey Chizhikov</a> from <a href="https://icons8.com/illustrations">Ouch!</a></p>
+        <p>Illustration by <a href="https://icons8.com/illustrations/author/599244">Aleksey Chizhikov</a> from <a href="https://icons8.com/illustrations">Ouch!</a></p>
       </div>
     </div>
   );
