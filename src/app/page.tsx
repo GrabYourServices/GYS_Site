@@ -2,17 +2,20 @@
 
 // Import necessary dependencies
 import { ChangeEvent, useEffect, useRef, useState } from "react";
-import Image from "next/image";
-import React from "react";
+
+import { motion } from 'framer-motion'
+import { HiLink } from 'react-icons/hi'
+import React, { CSSProperties } from "react";
 import { Typewriter } from 'react-simple-typewriter'
 import NavBar from "@/components/navbar";
 import './globals.css'
 import spaceBg from '../assets/imgs/c4f1e637-6d5f-4d61-b476-37ef8aca6dba.png'
 import Accordion from "@/components/accordilian";
 import { BiLogoInstagram, BiLogoDiscordAlt } from 'react-icons/bi';
-import { MdOutlineEmail } from "react-icons/md";
+import { MdOutlineEmail, MdWidthFull } from "react-icons/md";
 import Logo from '../assets/imgs/logo.png'
 import Dropdown from "@/components/dropdown";
+import { Testemonial } from "@/components/testemonial";
 interface DropdownProps {
   buttonLabel: string;
   onSelect: (item: string) => void;
@@ -187,7 +190,7 @@ export default function Home() {
   };
   return (
     <div className='font-mainFont'>
-      <div className="mainBg absolute"></div>
+      <div className="mainBg absolute z-20"></div>
       <div className="fixed z-50 w-screen flex justify-center p-4 lg:px-0">
         <NavBar scrollToSection={scrollToSection}/>
       </div>
@@ -337,7 +340,6 @@ Ditch the hassle of sluggish and pricey agencies; we're your shortcut to top-not
       <div className="min-h-screen flex justify-center items-center text-white flex-col">
         <h1 className='text-5xl text-center lg:text-4xl lg:mx-4'>Or, buy a <span className="text-yellow">Single</span> Product</h1>
         <button onClick={() => {scrollToSection('contactPage')}} className="w-96 lg:w-[calc(100%-4rem)] mx-8 bg-yellow text-black rounded-lg transition duration-500 hover:scale-110 py-3 mt-6">Get a Quote</button>
-        
         <div className='flex justify-center h-full mt-20 px-2 text-white items-center w-full min-h-full flex-col' style={{ position: "relative", zIndex: 1 }}>
           <div className="flex justify-center items-center flex-col mt-8 bg-transBlack shadow-xl h-full w-full md:p-8">
             <span className="font-mainFont text-center text-xl text-yellow opacity-75 ">REMOTE-REACH</span>
@@ -345,6 +347,16 @@ Ditch the hassle of sluggish and pricey agencies; we're your shortcut to top-not
             <p className="text-lg mt-8 text-center lg:mt-4 mx-48 lg:mx-8">Connect now for a game-changing consultation or grab an instant quote via our sleek contact form. Let's redefine your brand success, no matter where you are!</p>
             <button onClick={() => {window.open('https://calendly.com/grabyourservices/book-a-free-consultation-call-with-gys')}} className="w-96 lg:w-[calc(100%-4rem)] mx-8 bg-yellow text-black rounded-lg transition duration-500 hover:scale-110 py-3 mt-6">Request a Consultation</button>
           </div>
+        </div>
+      </div>
+      <div className="min-h-screen flex justify-center items-center text-white flex-col">
+        <h1 className='text-5xl mx-12 lg:mx-4 text-center lg:text-4xl lg:mx-4'>What our <span className="text-yellow">Customers</span> have to say.</h1>
+        <div className="flex justify-center items-center flex-row mt-12 w-full lg:flex-col">
+          <Testemonial name="Odessys" desc="A Marketing Agency" imgUri="https://i.imgur.com/2TTOLhO.jpg" uri="https://odessys.com/" testimonial="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas euismod est commodo tempor ultrices. Fusce sed lobortis enim. Proin eu vehicula odio, sed vulputate nulla. Sed sed augue vitae est eleifend eleifend. In vestibulum, nulla vitae mattis auctor, sem odio venenatis nisl, quis iaculis ligula eros consequat urna. Nam sed nulla sit amet tortor sodales euismod."/>
+          <Testemonial name="Odessys" desc="A Marketing Agency" imgUri="https://i.imgur.com/2TTOLhO.jpg" uri="https://odessys.com/" testimonial="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas euismod est commodo tempor ultrices. Fusce sed lobortis enim. Proin eu vehicula odio, sed vulputate nulla. Sed sed augue vitae est eleifend eleifend. In vestibulum, nulla vitae mattis auctor, sem odio venenatis nisl, quis iaculis ligula eros consequat urna. Nam sed nulla sit amet tortor sodales euismod."/>
+          <Testemonial name="Odessys" desc="A Marketing Agency" imgUri="https://i.imgur.com/2TTOLhO.jpg" uri="https://odessys.com/" testimonial="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas euismod est commodo tempor ultrices. Fusce sed lobortis enim. Proin eu vehicula odio, sed vulputate nulla. Sed sed augue vitae est eleifend eleifend. In vestibulum, nulla vitae mattis auctor, sem odio venenatis nisl, quis iaculis ligula eros consequat urna. Nam sed nulla sit amet tortor sodales euismod."/>
+          <Testemonial name="Odessys" desc="A Marketing Agency" imgUri="https://i.imgur.com/2TTOLhO.jpg" uri="https://odessys.com/" testimonial="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas euismod est commodo tempor ultrices. Fusce sed lobortis enim. Proin eu vehicula odio, sed vulputate nulla. Sed sed augue vitae est eleifend eleifend. In vestibulum, nulla vitae mattis auctor, sem odio venenatis nisl, quis iaculis ligula eros consequat urna. Nam sed nulla sit amet tortor sodales euismod."/>
+          <Testemonial name="Odessys" desc="A Marketing Agency" imgUri="https://i.imgur.com/2TTOLhO.jpg" uri="https://odessys.com/" testimonial="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas euismod est commodo tempor ultrices. Fusce sed lobortis enim. Proin eu vehicula odio, sed vulputate nulla. Sed sed augue vitae est eleifend eleifend. In vestibulum, nulla vitae mattis auctor, sem odio venenatis nisl, quis iaculis ligula eros consequat urna. Nam sed nulla sit amet tortor sodales euismod."/>
         </div>
       </div>
       <div ref={contactPage} id='contactPage' className="min-h-screen flex justify-center items-start w-screen">

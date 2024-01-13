@@ -17,9 +17,11 @@ const config: Config = {
         white: '#FFFFFF',
         black: '#000000',
         transBlack: 'rgba(0,0,0,0.9)',
-        transBlackV: 'rgb(0,0,0)',
+        transBlackV: 'rgb(0,0,0, 0.96)',
         transGrey: 'rgba(20,20,20,0.6)',
-        transYellow: 'rgba(255, 222, 89, 0.95)'
+        transYellow: 'rgba(255, 222, 89, 0.95)',
+        transYellowVN: 'rgba(255, 222, 89, 0.5)',
+        transWhiteVN: 'rgba(255,255,255,0.5)'
       },
       keyframes: {
         grow: {

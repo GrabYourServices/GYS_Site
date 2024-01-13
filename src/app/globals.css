@@ -239,3 +239,22 @@ animation: zoom 16s alternate infinite;
     opacity: 0.75;
   }
 }
+
+.test-sec-t {
+  opacity: 0;
+  z-index: 0;
+}
+
+.test-1 {
+  width: fit-content;
+  z-index: 2;
+  padding: 1rem;
+  border-radius: 1000px;
+  transition: all 2s ease;
+}
+
+.test-sec-f {
+  margin: 0;
+  width: 64px;
+  height: 64px;
+}

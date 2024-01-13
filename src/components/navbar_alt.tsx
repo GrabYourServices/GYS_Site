@@ -8,7 +8,7 @@ import Logo from '../assets/imgs/logo.png'
 import '../app/globals.css';
 import { useRouter } from 'next/navigation';
 import { FaCircleChevronDown } from 'react-icons/fa6'
-
+import { motion } from 'framer-motion'
 interface NavBarAltProps {
   route: string,
 }
