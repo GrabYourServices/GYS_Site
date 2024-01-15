@@ -2,8 +2,12 @@
 
 // Import necessary dependencies
 import { ChangeEvent, useEffect, useRef, useState } from "react";
-import Image from "next/image";
-import React from "react";
+
+import oc from '../assets/imgs/oc.jpg'
+import oringo from '../assets/imgs/oringo.jpeg'
+import riztax from '../assets/imgs/riztax.png'
+import willow from '../assets/imgs/willow.png'
+import React, { CSSProperties } from "react";
 import { Typewriter } from 'react-simple-typewriter'
 import NavBar from "@/components/navbar";
 import './globals.css'
@@ -13,11 +17,50 @@ import { BiLogoInstagram, BiLogoDiscordAlt } from 'react-icons/bi';
 import { MdOutlineEmail } from "react-icons/md";
 import Logo from '../assets/imgs/logo.png'
 import Dropdown from "@/components/dropdown";
+import { Testemonial, TestimonialProps } from "@/components/testemonial";
 interface DropdownProps {
   buttonLabel: string;
   onSelect: (item: string) => void;
   items: string[];
 }
+const testemonials: TestimonialProps[] = [
+  {
+    name: 'Odessys',
+    desc: 'Oman',
+    testimonial: 'GYS has been a game-changer for Odessys, our marketing agency in Oman. Their remote marketing solutions have brought a fresh perspective to our campaigns, leading to increased client engagement and business growth. The professionalism and commitment displayed by GYS have made them an invaluable extension of our team. We highly recommend their services.',
+    imgUri: 'https://i.imgur.com/YAIi5TX.jpg',
+  },
+  {
+    name: 'Sunny Commerce',
+    desc: 'Malaysia',
+    testimonial: 'Sunny Commerce, operating with a diverse range of mother companies in Malaysia, has experienced a remarkable transformation in its online presence and lead generation thanks to GYS. Their remote marketing strategies are not only effective but also tailored to our unique business model. GYS has proven to be a reliable partner, consistently delivering outstanding results.',
+    imgUri: 'https://i.imgur.com/fvvQuAt.jpg',
+  },
+  {
+    name: 'Willow Marketing',
+    desc: 'Pakistan',
+    testimonial: "Willow Marketing, based in Pakistan, is thrilled with the remote marketing services provided by GYS. Their team's expertise and attention to detail have significantly contributed to our brand's visibility and customer engagement. GYS has become an integral part of our marketing efforts, and we look forward to continued success together.",
+    imgUri: willow.src,
+  },
+  {
+    name: 'Riztax Solution',
+    desc: 'Canada',
+    testimonial: "GYS has been instrumental in elevating Riztax Solutions' online presence. Since partnering with them, our Canadian tax consulting firm has seen increased visibility and quality leads. GYS's tailored and prompt remote marketing services have made them an invaluable asset to our growth. Highly recommended!",
+    imgUri: riztax.src,
+  },
+  {
+    name: 'Oringo Fashion',
+    desc: 'Germany',
+    testimonial: "GYS has been a key player in elevating the online presence of Oringo Fashion, our fashion company based in Germany. Their remote marketing strategies are not only innovative but also aligned with our brand identity. We appreciate GYS's commitment to delivering results and would recommend their services to any business seeking impactful marketing solutions.",
+    imgUri: oringo.src,
+  },
+  {
+    name: 'Ordered Chaos',
+    desc: 'Pakistan',
+    testimonial: "Thanks to GYS, Ordered Chaos, our textile fashion brand in Pakistan, has experienced a remarkable boost in online engagement. GYS's exceptional product photography services and captivating social media posts have truly set our brand apart. Their remote marketing expertise has not only elevated our visual presence but also significantly contributed to increased sales. We highly recommend GYS for their creativity, professionalism, and impactful marketing services.",
+    imgUri: oc.src,
+  },
+]
 const items = [
   {
     title: 'Branding',
@@ -187,7 +230,7 @@ export default function Home() {
   };
   return (
     <div className='font-mainFont'>
-      <div className="mainBg absolute"></div>
+      <div className="mainBg absolute z-20"></div>
       <div className="fixed z-50 w-screen flex justify-center p-4 lg:px-0">
         <NavBar scrollToSection={scrollToSection}/>
       </div>
@@ -337,13 +380,21 @@ Ditch the hassle of sluggish and pricey agencies; we're your shortcut to top-not
       <div className="min-h-screen flex justify-center items-center text-white flex-col">
         <h1 className='text-5xl text-center lg:text-4xl lg:mx-4'>Or, buy a <span className="text-yellow">Single</span> Product</h1>
         <button onClick={() => {scrollToSection('contactPage')}} className="w-96 lg:w-[calc(100%-4rem)] mx-8 bg-yellow text-black rounded-lg transition duration-500 hover:scale-110 py-3 mt-6">Get a Quote</button>
-        
         <div className='flex justify-center h-full mt-20 px-2 text-white items-center w-full min-h-full flex-col' style={{ position: "relative", zIndex: 1 }}>
           <div className="flex justify-center items-center flex-col mt-8 bg-transBlack shadow-xl h-full w-full md:p-8">
             <span className="font-mainFont text-center text-xl text-yellow opacity-75 ">REMOTE-REACH</span>
             <span className="font-mainFont text-center text-5xl lg:text-3xl mx-48 lg:mx-8">Anytime, anywhere, we transform your brand dreams into reality.</span>
             <p className="text-lg mt-8 text-center lg:mt-4 mx-48 lg:mx-8">Connect now for a game-changing consultation or grab an instant quote via our sleek contact form. Let's redefine your brand success, no matter where you are!</p>
+            <button onClick={() => {window.open('https://calendly.com/grabyourservices/book-a-free-consultation-call-with-gys')}} className="w-96 lg:w-[calc(100%-4rem)] mx-8 bg-yellow text-black rounded-lg transition duration-500 hover:scale-110 py-3 mt-6">Request a Consultation</button>
           </div>
+        </div>
+      </div>
+      <div className="min-h-screen flex justify-center items-center text-white flex-col">
+        <h1 className='text-5xl mx-12 lg:mx-4 text-center lg:text-4xl lg:mx-4'>What our <span className="text-yellow">Customers</span> have to say.</h1>
+        <div className="flex justify-center items-center flex-row mt-12 w-full lg:flex-col">
+          {testemonials.map(testemonial => {
+            return (<Testemonial name={testemonial.name} desc={testemonial.desc} testimonial={testemonial.testimonial} imgUri={testemonial.imgUri}/>)
+          })}
         </div>
       </div>
       <div ref={contactPage} id='contactPage' className="min-h-screen flex justify-center items-start w-screen">
@@ -443,7 +494,7 @@ Ditch the hassle of sluggish and pricey agencies; we're your shortcut to top-not
           </div>
         </div>
         <h1 className="lg:mx-8 lg:text-center text-xl mt-4 text-white text-center">Copyright 2023 - GrabYourServices.<br/> All Rights Reserved</h1>
-            <p>Illustration by <a href="https://icons8.com/illustrations/author/599244">Aleksey Chizhikov</a> from <a href="https://icons8.com/illustrations">Ouch!</a></p>
+        <p>Illustration by <a href="https://icons8.com/illustrations/author/599244">Aleksey Chizhikov</a> from <a href="https://icons8.com/illustrations">Ouch!</a></p>
       </div>
     </div>
   );
