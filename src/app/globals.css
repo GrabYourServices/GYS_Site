@@ -246,7 +246,6 @@ animation: zoom 16s alternate infinite;
 }
 
 .test-1 {
-  width: fit-content;
   z-index: 2;
   padding: 1rem;
   border-radius: 1000px;

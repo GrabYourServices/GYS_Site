@@ -17,7 +17,7 @@ import { BiLogoInstagram, BiLogoDiscordAlt } from 'react-icons/bi';
 import { MdOutlineEmail } from "react-icons/md";
 import Logo from '../assets/imgs/logo.png'
 import Dropdown from "@/components/dropdown";
-import { Testemonial, TestimonialProps } from "@/components/testemonial";
+import { Testimonial, TestimonialProps } from "@/components/testemonial";
 interface DropdownProps {
   buttonLabel: string;
   onSelect: (item: string) => void;
@@ -392,8 +392,8 @@ Ditch the hassle of sluggish and pricey agencies; we're your shortcut to top-not
       <div className="min-h-screen flex justify-center items-center text-white flex-col">
         <h1 className='text-5xl mx-12 lg:mx-4 text-center lg:text-4xl lg:mx-4'>What our <span className="text-yellow">Customers</span> have to say.</h1>
         <div className="flex justify-center items-center flex-row mt-12 w-full lg:flex-col">
-          {testemonials.map(testemonial => {
-            return (<Testemonial name={testemonial.name} desc={testemonial.desc} testimonial={testemonial.testimonial} imgUri={testemonial.imgUri}/>)
+          {testemonials.map((testemonial, key) => {
+            return (<Testimonial key={key} name={testemonial.name} desc={testemonial.desc} testimonial={testemonial.testimonial} imgUri={testemonial.imgUri}/>)
           })}
         </div>
       </div>
