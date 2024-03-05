@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'mainFont';
-  src: url('../assets/fonts/OdudoSoft-Light.otf') format('opentype');
+  src: url('../assets/fonts/Poppins-Regular.ttf') format('opentype');
 }
 body {
   background-color: #000;
